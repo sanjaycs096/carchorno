@@ -5,7 +5,7 @@
       "name": "Audi R8",
       "brand": "Audi",
       "description": "A high-performance sports car from Audi.",
-      "imageUrl": "https://images.unsplash.com/photo-1617103833273-c603b8c36a43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdWRpJTIwcjh8ZW58MHx8fHwxNzMxNzMwMjk3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/2021_Audi_R8_V10_Performance_Spyder_Front.jpg",
       "imageHint": "sports car"
     },
     {
@@ -13,7 +13,7 @@
       "name": "BMW M4",
       "brand": "BMW",
       "description": "A powerful and agile coupe from BMW's M division.",
-      "imageUrl": "https://images.unsplash.com/photo-1555512148-3578a4855365?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibXclMjBtNHxlbnwwfHx8fDE3MzE3MzAyOTd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2021_BMW_M4_Competition_Automatic_Front.jpg",
       "imageHint": "blue car"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Bugatti Chiron",
       "brand": "Bugatti",
       "description": "An iconic hypercar known for its speed and luxury.",
-      "imageUrl": "https://images.unsplash.com/photo-1533473395332-585a5358ab16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidWdhdHRpJTIwY2hpcm9ufGVufDB8fHx8MTczMTczMDI5N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Bugatti_Chiron_1.jpg",
       "imageHint": "luxury car"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Chevrolet Camaro",
       "brand": "Chevrolet",
       "description": "An American muscle car with a rich history.",
-      "imageUrl": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGV2cm9sZXQlMjBjYW1hcm98ZW58MHx8fHwxNzMxNzMwMjk4fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2018_Chevrolet_Camaro_ZL1_in_Red_Hot%2C_Front_Right.jpg",
       "imageHint": "muscle car"
     },
     {
@@ -37,7 +37,7 @@
       "name": "Ferrari 488",
       "brand": "Ferrari",
       "description": "A masterpiece of Italian engineering and design.",
-      "imageUrl": "https://images.unsplash.com/photo-1612845814502-019d6d535b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmZXJyYXJpJTIwNDg4fGVufDB8fHx8MTczMTczMDI5OHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ferrari_488_GTB.jpg",
       "imageHint": "red car"
     },
     {
@@ -45,7 +45,7 @@
       "name": "Ford Mustang",
       "brand": "Ford",
       "description": "The original pony car, an American icon.",
-      "imageUrl": "https://images.unsplash.com/photo-1549221571-c27c0e78c858?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb3JkJTIwbXVzdGFuZ3xlbnwwfHx8fDE3MzE3MzAyOTh8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/2021_Ford_Mustang_Mach-E_GT_AWD_in_Grabber_Blue%2C_Front_Right.jpg",
       "imageHint": "pony car"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Honda Civic Type R",
       "brand": "Honda",
       "description": "A high-performance hatchback with a racing pedigree.",
-      "imageUrl": "https://images.unsplash.com/photo-1675713835505-4318776b76a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob25kYSUyMGNpdmljJTIwdHlwZSUyMHJ8ZW58MHx8fHwxNzMxNzMwMjk5fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/2018_Honda_Civic_Type-R_GT_VTEC_Turbo_2.0_Front.jpg",
       "imageHint": "hatchback car"
     },
     {
@@ -61,7 +61,7 @@
       "name": "Lamborghini Aventador",
       "brand": "Lamborghini",
       "description": "An exotic supercar with aggressive styling.",
-      "imageUrl": "https://images.unsplash.com/photo-1541348263662-e068662d82af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYW1ib3JnaGluaSUyMGF2ZW50YWRvcnxlbnwwfHx8fDE3MzE3MzAyOTl8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Lamborghini_Aventador_LP700-4_2012_-_4.jpg",
       "imageHint": "supercar"
     },
     {
@@ -69,7 +69,7 @@
       "name": "McLaren 720S",
       "brand": "McLaren",
       "description": "A British supercar focused on performance and aerodynamics.",
-      "imageUrl": "https://images.unsplash.com/photo-1617654859692-f2a8a81691a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtY2xhcmVuJTIwNzIwc3xlbnwwfHx8fDE3MzE3MzAyOTl8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/McLaren_720S_Spider_Genf_2019_1Y7A5559.jpg",
       "imageHint": "orange car"
     },
     {
@@ -77,7 +77,7 @@
       "name": "Mercedes-AMG GT",
       "brand": "Mercedes-Benz",
       "description": "A luxury sports car combining performance with comfort.",
-      "imageUrl": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZXJjZWRlcyUyMGFtZyUyMGd0fGVufDB8fHx8MTczMTczMDMwMHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Mercedes-AMG_GT_C_Roadster_IMG_0083.jpg",
       "imageHint": "silver car"
     },
     {
@@ -85,7 +85,7 @@
       "name": "Nissan GT-R",
       "brand": "Nissan",
       "description": "Godzilla, a Japanese supercar with incredible performance.",
-      "imageUrl": "https://images.unsplash.com/photo-1616422285337-a026f3a8c6a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuaXNzYW4lMjBndHJ8ZW58MHx8fHwxNzMxNzMwMzAwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Nissan_GT-R_on_display_at_the_London_Motor_Show_2016.jpg",
       "imageHint": "Japanese supercar"
     },
     {
@@ -93,7 +93,7 @@
       "name": "Porsche 911",
       "brand": "Porsche",
       "description": "An iconic sports car with a timeless design.",
-      "imageUrl": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3JzY2hlJTIwOTExfGVufDB8fHx8MTczMTczMDMwMHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2021_Porsche_911_Carrera_4_Coupe_in_Crayon%2C_Front_Right%2C_08-22-2021.jpg",
       "imageHint": "classic car"
     },
     {
@@ -101,7 +101,7 @@
       "name": "Tesla Model S",
       "brand": "Tesla",
       "description": "A pioneer in electric vehicle performance and technology.",
-      "imageUrl": "https://images.unsplash.com/photo-1544992495-3b95501b17b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZXNsYSUyMG1vZGVsJTIwc3xlbnwwfHx8fDE3MzE3MzAzMDF8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/2021_Tesla_Model_S_Long_Range_in_Red%2C_Front_Right.jpg",
       "imageHint": "electric car"
     },
     {
@@ -109,14 +109,14 @@
       "name": "BMW M5",
       "brand": "BMW",
       "description": "High horsepower, beauty with killer eyes.",
-      "imageUrl": "https://images.unsplash.com/photo-1580273916550-42f2311891e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibXclMjBtNXxlbnwwfHx8fDE3MzE3MzAzMDF8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/2018_BMW_M5_Automatic_4.4.jpg",
       "imageHint": "sports sedan"
     },
     {
       "id": "15",
       "name": "A4",
       "brand": "Audi",
-      "imageUrl": "https://images.unsplash.com/photo-1616421233882-9f37937f191b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhdWRpJTIwYTR8ZW58MHx8fHwxNzMyMTA1ODMyfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/2018_Audi_A4_S_Line_2.0_Front.jpg",
       "description": "Compact executive sedan by Audi",
       "imageHint": "Audi sedan"
     },
@@ -124,7 +124,7 @@
       "id": "16",
       "name": "Altima",
       "brand": "Nissan",
-      "imageUrl": "https://images.unsplash.com/photo-1632311666498-89c933e4a2d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuaXNzYW4lMjBhbHRpbWF8ZW58MHx8fHwxNzMxNzMwMzAyfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/2019_Nissan_Altima_SV.jpg",
       "description": "Midsize sedan known for comfort and efficiency",
       "imageHint": "Nissan sedan"
     },
@@ -132,7 +132,7 @@
       "id": "17",
       "name": "BMW X5",
       "brand": "BMW",
-      "imageUrl": "https://images.unsplash.com/photo-1546625243-73a7ac622550?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibXclMjB4NXxlbnwwfHx8fDE3MzE3MzAzMDN8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/2019_BMW_X5_xDrive40i.jpg",
       "description": "Luxury midsize SUV with strong performance",
       "imageHint": "BMW SUV"
     },
@@ -140,7 +140,7 @@
       "id": "18",
       "name": "Baleno",
       "brand": "Suzuki",
-      "imageUrl": "https://images.unsplash.com/photo-1644222069212-324c29990c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdXp1a2klMjBiYWxlbm98ZW58MHx8fHwxNzMxNzMwMzA0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Maruti_Suzuki_Baleno_2022.jpg",
       "description": "Premium hatchback popular in India",
       "imageHint": "Suzuki hatchback"
     },
@@ -148,7 +148,7 @@
       "id": "19",
       "name": "Camry",
       "brand": "Toyota",
-      "imageUrl": "https://images.unsplash.com/photo-1621706341910-e7a1c0d45e07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b3lvdGElMjBjYW1yeXxlbnwwfHx8fDE3MxNzMwMzA0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/2018_Toyota_Camry_XLE.jpg",
       "description": "Reliable midsize sedan with hybrid option",
       "imageHint": "Toyota sedan"
     },
@@ -156,7 +156,7 @@
       "id": "20",
       "name": "Civic",
       "brand": "Honda",
-      "imageUrl": "https://images.unsplash.com/photo-1552843412-1ce5b5c734a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob25kYSUyMGNpdmljfGVufDB8fHx8MTczMTczMDMwNXww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/2022_Honda_Civic_Sport_in_Rallye_Red%2C_Front_Right.jpg",
       "description": "Popular compact sedan with sporty feel",
       "imageHint": "Honda sedan"
     },
@@ -164,7 +164,7 @@
       "id": "21",
       "name": "Defender",
       "brand": "Land Rover",
-      "imageUrl": "https://images.unsplash.com/photo-1605346385258-6a72f4116744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYW5kJTIwcm92ZXIlMjBkZWZlbmRlcnxlbnwwfHx8fDE3MxNzMwMzA1fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/2020_Land_Rover_Defender_S_D240_AWD_2.0_Front.jpg",
       "description": "Rugged off-road luxury SUV",
       "imageHint": "Land Rover SUV"
     },
@@ -172,7 +172,7 @@
       "id": "22",
       "name": "Duster",
       "brand": "Renault",
-      "imageUrl": "https://images.unsplash.com/photo-1596743343497-e07544d18961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZW5hdWx0JTIwZHVzdGVyfGVufDB8fHx8MTczMTczMDMwNnww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/2018_Dacia_Duster_Prestige_DCi_110_4x4_1.5_Front.jpg",
       "description": "Compact SUV with strong diesel options",
       "imageHint": "Renault SUV"
     },
@@ -180,7 +180,7 @@
       "id": "23",
       "name": "E-Class",
       "brand": "Mercedes-Benz",
-      "imageUrl": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZXJjZWRlcyUyMGUtY2xhc3N8ZW58MHx8fHwxNzMxNzMwMzA2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/2021_Mercedes-Benz_E_300_de_AMG_Line_sedan_in_Obsidian_Black%2C_Front_Right.jpg",
       "description": "Luxury executive sedan",
       "imageHint": "Mercedes-Benz sedan"
     },
@@ -188,7 +188,7 @@
       "id": "24",
       "name": "Ecosport",
       "brand": "Ford",
-      "imageUrl": "https://images.unsplash.com/photo-1606612391269-ac634a8a05e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb3JkJTIwZWNvc3BvcnR8ZW58MHx8fHwxNzMxNzMwMzA3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ford_Ecosport_2018_en_Chile.jpg",
       "description": "Compact SUV designed for urban driving",
       "imageHint": "Ford SUV"
     },
@@ -196,7 +196,7 @@
       "id": "25",
       "name": "Fortuner",
       "brand": "Toyota",
-      "imageUrl": "https://images.unsplash.com/photo-1631215109618-b080f4a92a2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b3lvdGElMjBmb3J0dW5lcnxlbnwwfHx8fDE3MxNzMwMzA3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/2021_Toyota_Fortuner_2.8_Legender_4WD_in_White_Pearl_CS_with_Attitude_Black_Mica_roof%2C_Front_Right.jpg",
       "description": "Full-size SUV popular in Asian markets",
       "imageHint": "Toyota SUV"
     },
@@ -204,7 +204,7 @@
       "id": "26",
       "name": "Fiesta",
       "brand": "Ford",
-      "imageUrl": "https://images.unsplash.com/photo-1580562828695-b659c8c45d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb3JkJTIwZmllc3RhfGVufDB8fHx8MTczMTczMDMwOHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/2017_Ford_Fiesta_ST-Line_X_1.0_Front.jpg",
       "description": "Compact hatchback with agile handling",
       "imageHint": "Ford hatchback"
     },
@@ -212,7 +212,7 @@
       "id": "27",
       "name": "GLA",
       "brand": "Mercedes-Benz",
-      "imageUrl": "https://images.unsplash.com/photo-1623864018379-99a419c8f2a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZXJjZWRlcyUyMGdsYXxlbnwwfHx8fDE3MxNzMwMzA4fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2021_Mercedes-Benz_GLA_200_AMG_Line_in_Denim_Blue%2C_Front_Right.jpg",
       "description": "Entry-level luxury compact SUV",
       "imageHint": "Mercedes-Benz SUV"
     },
@@ -220,7 +220,7 @@
       "id": "28",
       "name": "Golf",
       "brand": "Volkswagen",
-      "imageUrl": "https://images.unsplash.com/photo-1541443131876-44b43de75317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2xrc3dhZ2VuJTIwZ29sZnxlbnwwfHx8fDE3MxNzMwMzA5fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/2020_Volkswagen_Golf_Style_ETSi_MHEV_1.5_Front.jpg",
       "description": "Iconic premium hatchback",
       "imageHint": "Volkswagen hatchback"
     },
@@ -228,7 +228,7 @@
       "id": "29",
       "name": "Harrier",
       "brand": "Tata",
-      "imageUrl": "https://images.unsplash.com/photo-1677610023637-2937e5898839?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0YXRhJTIwaGFycmllcnxlbnwwfHx8fDE3MxNzMwMzA5fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Tata_Harrier_XZ%2B_Red_Dark_Edition_-_Front.jpg",
       "description": "Mid-size SUV built on OmegaArc platform",
       "imageHint": "Tata SUV"
     },
@@ -236,7 +236,7 @@
       "id": "30",
       "name": "Hexa",
       "brand": "Tata",
-      "imageUrl": "https://images.unsplash.com/photo-1629828225899-a8a245d8b8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxUYXRhJTIwSGV4YSUyMHN1dnxlbnwwfHx8fDE3MzE4MTkyMDN8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Tata_Hexa_XT_4x4_-_Front.jpg",
       "description": "Comfort-oriented crossover SUV",
       "imageHint": "Tata SUV"
     },
@@ -244,7 +244,7 @@
       "id": "31",
       "name": "Innova Crysta",
       "brand": "Toyota",
-      "imageUrl": "https://images.unsplash.com/photo-1601362840436-857395015b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxUb3lvdGElMjBJbm5vdmElMjBDcnlzdGF8ZW58MHx8fHwxNzMxODE5MjMwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2017_Toyota_Innova_2.8_G_Diesel_-_Front.jpg",
       "description": "Premium MPV known for reliability",
       "imageHint": "Toyota MPV"
     },
@@ -252,7 +252,7 @@
       "id": "32",
       "name": "i20",
       "brand": "Hyundai",
-      "imageUrl": "https://images.unsplash.com/photo-1613912108493-9cd35058913c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoeXVuZGFpJTIwaTIwfGVufDB8fHx8MTczMTczMDMxMXww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/2021_Hyundai_i20_Premium.jpg",
       "description": "Premium hatchback with modern features",
       "imageHint": "Hyundai hatchback"
     },
@@ -260,7 +260,7 @@
       "id": "33",
       "name": "Jetta",
       "brand": "Volkswagen",
-      "imageUrl": "https://images.unsplash.com/photo-1599837563143-6923d6a699ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2xrc3dhZ2VuJTIwamV0dGF8ZW58MHx8fHwxNzMxNzMwMzEyfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/2019_Volkswagen_Jetta_SEL_Premium%2C_front_8.28.19.jpg",
       "description": "Compact sedan with solid build quality",
       "imageHint": "Volkswagen sedan"
     },
@@ -268,7 +268,7 @@
       "id": "34",
       "name": "Jeep Compass",
       "brand": "Jeep",
-      "imageUrl": "https://images.unsplash.com/photo-1552863773-4b6842491b3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqZWVwJTIwY29tcGFzc3xlbnwwfHx8fDE3MxNzMwMzEyfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/2021_Jeep_Compass_80th_Anniversary_AWD_in_Jazz_Blue%2C_Front_Right.jpg",
       "description": "Compact SUV with off-road capability",
       "imageHint": "Jeep SUV"
     },
@@ -276,7 +276,7 @@
       "id": "35",
       "name": "Kodiaq",
       "brand": "Skoda",
-      "imageUrl": "https://images.unsplash.com/photo-1628127341303-34988082697a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza29kYSUyMGtvZGlhcXxlbnwwfHx8fDE3MxNzMwMzEzfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/2022_Skoda_Kodiaq_SE_L_Executive_TDi_4x4_2.0.jpg",
       "description": "7-seater luxury SUV",
       "imageHint": "Skoda SUV"
     },
@@ -284,7 +284,7 @@
       "id": "36",
       "name": "Kiger",
       "brand": "Renault",
-      "imageUrl": "https://images.unsplash.com/photo-1624343360498-361537fad636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxSZW5hdWx0JTIwS2lnZXJ8ZW58MHx8fHwxNzMxODE5Mjg1fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Renault_Kiger_RXZ_Turbo_CVT_%28India%29_front_view.jpg",
       "description": "Subcompact SUV with sporty styling",
       "imageHint": "Renault SUV"
     },
@@ -292,7 +292,7 @@
       "id": "37",
       "name": "Lancer",
       "brand": "Mitsubishi",
-      "imageUrl": "https://images.unsplash.com/photo-1553755492-748154e56999?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaXRzdWJpc2hpJTIwbGFuY2VyfGVufDB8fHx8MTczMTczMDMxNHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2015_Mitsubishi_Lancer_Evolution_Final_Edition%2C_front_right.jpg",
       "description": "Iconic sedan with rally heritage",
       "imageHint": "Mitsubishi sedan"
     },
@@ -300,7 +300,7 @@
       "id": "38",
       "name": "Lexus RX",
       "brand": "Lexus",
-      "imageUrl": "https://images.unsplash.com/photo-1618062590235-3c13c72b217a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZXh1cyUyMHJ4fGVufDB8fHx8MTczMTczMDMxNHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/2020_Lexus_RX_450h_F-Sport_CVT_in_White%2C_Front_Right.jpg",
       "description": "Luxury midsize SUV with hybrid tech",
       "imageHint": "Lexus SUV"
     },
@@ -308,7 +308,7 @@
       "id": "39",
       "name": "Model S",
       "brand": "Tesla",
-      "imageUrl": "https://images.unsplash.com/photo-1544992495-3b95501b17b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZXNsYSUyMG1vZGVsJTIwc3xlbnwwfHx8fDE3MzE3MzA3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/2021_Tesla_Model_S_Long_Range_in_Red%2C_Front_Right.jpg",
       "description": "Premium electric sedan with long range",
       "imageHint": "Tesla sedan"
     },
@@ -316,7 +316,7 @@
       "id": "40",
       "name": "Mustang",
       "brand": "Ford",
-      "imageUrl": "https://images.unsplash.com/photo-1549221571-c27c0e78c858?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb3JkJTIwbXVzdGFuZ3xlbnwwfHx8fDE3MzE3MzA3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/2021_Ford_Mustang_GT_in_Twister_Orange%2C_Front_Right.jpg",
       "description": "Legendary American muscle car",
       "imageHint": "Ford muscle car"
     },
@@ -324,7 +324,7 @@
       "id": "41",
       "name": "Nexon",
       "brand": "Tata",
-      "imageUrl": "https://images.unsplash.com/photo-1629828225899-a8a245d8b8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxUYXRhJTIwTmV4b258ZW58MHx8fHwxNzMxODE5MzMxfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Tata_Nexon_XZ%2B_Facelift.jpg",
       "description": "Compact SUV with high safety rating",
       "imageHint": "Tata SUV"
     },
@@ -332,7 +332,7 @@
       "id": "42",
       "name": "Navara",
       "brand": "Nissan",
-      "imageUrl": "https://images.unsplash.com/photo-1628863352615-99810a9761a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuaXNzYW4lMjBuYXZhcmF8ZW58MHx8fHwxNzMxNzMwNzc0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/2021_Nissan_Navara_Tekna_dCi_Automatic_2.3_Front.jpg",
       "description": "Pickup truck with strong utility focus",
       "imageHint": "Nissan truck"
     },
@@ -340,7 +340,7 @@
       "id": "43",
       "name": "Octavia",
       "brand": "Skoda",
-      "imageUrl": "https://images.unsplash.com/photo-1616621115082-d2f6f403f273?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza29kYSUyMG9jdGF2aWF8ZW58MHx8fHwxNzMxNzMwNzc1fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/2021_Skoda_Octavia_vRS_TDi_DSG_2.0_Front.jpg",
       "description": "Executive sedan with excellent driving dynamics",
       "imageHint": "Skoda sedan"
     },
@@ -348,7 +348,7 @@
       "id": "44",
       "name": "Outlander",
       "brand": "Mitsubishi",
-      "imageUrl": "https://images.unsplash.com/photo-1613945952936-237415178652?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaXRzdWJpc2hpJTIwb3V0bGFuZGVyfGVufDB8fHx8MTczMTczMDc3NXww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2022_Mitsubishi_Outlander_SEL_Launch_Edition%2C_front_1.26.21.jpg",
       "description": "Family-friendly midsize SUV",
       "imageHint": "Mitsubishi SUV"
     },
@@ -356,7 +356,7 @@
       "id": "45",
       "name": "Polo",
       "brand": "Volkswagen",
-      "imageUrl": "https://images.unsplash.com/photo-1599838938972-7634fab96b8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2xrc3dhZ2VuJTIwcG9sb3xlbnwwfHx8fDE3MxNzMwNzc2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/2018_Volkswagen_Polo_Beats_TSi_1.0_Front.jpg",
       "description": "Premium compact hatchback",
       "imageHint": "Volkswagen hatchback"
     },
@@ -364,7 +364,7 @@
       "id": "46",
       "name": "Pajero",
       "brand": "Mitsubishi",
-      "imageUrl": "https://images.unsplash.com/photo-1601362840436-857395015b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNaXRzdWJpc2hpJTIwUGFqZXJvfGVufDB8fHx8MTczMTgxOTM4MHww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/2015_Mitsubishi_Pajero_Exceed_LWB_wagon_%282015-07-01%29_01.jpg",
       "description": "Legendary off-road SUV",
       "imageHint": "Mitsubishi SUV"
     },
@@ -372,7 +372,7 @@
       "id": "47",
       "name": "Q5",
       "brand": "Audi",
-      "imageUrl": "https://images.unsplash.com/photo-1617066804533-3151838636a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdWRpJTIwcTV8ZW58MHx8fHwxNzMxNzMwNzc3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/2021_Audi_Q5_S_Line_45_TFSi_Quattro_MHEV_2.0_Front.jpg",
       "description": "Luxury midsize SUV",
       "imageHint": "Audi SUV"
     },
@@ -380,7 +380,7 @@
       "id": "48",
       "name": "Q3",
       "brand": "Audi",
-      "imageUrl": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdWRpJTIwcTN8ZW58MHx8fHwxNzMxNzMwNzc4fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/2019_Audi_Q3_S_Line_35_TFSi_S-A_1.5_Front.jpg",
       "description": "Compact luxury SUV",
       "imageHint": "Audi SUV"
     },
@@ -388,7 +388,7 @@
       "id": "49",
       "name": "Rapid",
       "brand": "Skoda",
-      "imageUrl": "https://images.unsplash.com/photo-1616621115082-d2f6f403f273?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxTa29kYSUyMFJhcGlkfGVufDB8fHx8MTczMTgxOTQxM3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Skoda_Rapid_1.0_TSI_Style_Plus_India.jpg",
       "description": "Compact sedan with solid build",
       "imageHint": "Skoda sedan"
     },
@@ -396,7 +396,7 @@
       "id": "50",
       "name": "Range Rover",
       "brand": "Land Rover",
-      "imageUrl": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYW5nZSUyMHJvdmVyfGVufDB8fHx8MTczMTczMDc3OXww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/2022_Range_Rover_SE_D300_in_Santorini_Black%2C_Front_Right.jpg",
       "description": "Flagship luxury SUV",
       "imageHint": "Land Rover SUV"
     },
@@ -404,7 +404,7 @@
       "id": "51",
       "name": "Safari",
       "brand": "Tata",
-      "imageUrl": "https://images.unsplash.com/photo-1629828225899-a8a245d8b8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxUYXRhJTIwU2FmYXJpfGVufDB8fHx8MTczMTgxOTQzOXww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Tata_Safari_Accomplished%2B_6_seater_AT_Dark_Edition_-_Front.jpg",
       "description": "7-seater SUV with strong road presence",
       "imageHint": "Tata SUV"
     },
@@ -412,7 +412,7 @@
       "id": "52",
       "name": "Swift",
       "brand": "Maruti Suzuki",
-      "imageUrl": "https://images.unsplash.com/photo-1619642824948-04b3a43292cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdXp1a2klMjBzd2lmdHxlbnwwfHx8fDE3MxNzMwNzgwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2021_Suzuki_Swift_GLX_Navi_Hybrid_1.2.jpg",
       "description": "Popular hatchback with sporty design",
       "imageHint": "Suzuki hatchback"
     },
@@ -420,7 +420,7 @@
       "id": "53",
       "name": "Thar",
       "brand": "Mahindra",
-      "imageUrl": "https://images.unsplash.com/photo-1628745134153-56843058914a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWhpbmRyYSUyMHRoYXJ8ZW58MHx8fHwxNzMxNzMwNzgwfDA&ixlibrb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2021_Mahindra_Thar_LX_4-Str_Hard_Top_Diesel_AT_in_Rocky_Beige.jpg/1280px-2021_Mahindra_Thar_LX_4-Str_Hard_Top_Diesel_AT_in_Rocky_Beige.jpg",
       "description": "Off-road lifestyle SUV",
       "imageHint": "Mahindra SUV"
     },
@@ -428,7 +428,7 @@
       "id": "54",
       "name": "Tiguan",
       "brand": "Volkswagen",
-      "imageUrl": "https://images.unsplash.com/photo-1632882800363-d110de9817a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2xrc3dhZ2VuJTIwdGlndWFufGVufDB8fHx8MTczMTczMDc4MXww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/2022_Volkswagen_Tiguan_R-Line_TDi_4MOTION_2.0_Front.jpg",
       "description": "Premium midsize SUV",
       "imageHint": "Volkswagen SUV"
     },
@@ -436,7 +436,7 @@
       "id": "55",
       "name": "Urban Cruiser",
       "brand": "Toyota",
-      "imageUrl": "https://images.unsplash.com/photo-1601362840436-857395015b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxUb3lvdGElMjBVcmJhbglMjBDcnVpc2VyfGVufDB8fHx8MTczMTgxOTQ5OXww&ixlibrb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/2021_Toyota_Urban_Cruiser_Premium_1.5_Front.jpg",
       "description": "Compact SUV for city driving",
       "imageHint": "Toyota SUV"
     },
@@ -444,7 +444,7 @@
       "id": "56",
       "name": "Urus",
       "brand": "Lamborghini",
-      "imageUrl": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYW1ib3JnaGluaSUyMHVydXN8ZW58MHx8fHwxNzMxNzMwNzgyfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/2018_Lamborghini_Urus_4X4_4.0_Front.jpg",
       "description": "High-performance luxury SUV",
       "imageHint": "Lamborghini SUV"
     },
@@ -452,7 +452,7 @@
       "id": "57",
       "name": "Vento",
       "brand": "Volkswagen",
-      "imageUrl": "https://images.unsplash.com/photo-1599837563143-6923d6a699ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxWb2xrc3dhZ2VuJTIwVmVudG98ZW58MHx8fHwxNzMxODE5NTI2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/VW_Vento_1.6_Highline_Plus_AT_2020_%28India%29.jpg",
       "description": "Mid-size sedan with German engineering",
       "imageHint": "Volkswagen sedan"
     },
@@ -460,7 +460,7 @@
       "id": "58",
       "name": "Volvo XC60",
       "brand": "Volvo",
-      "imageUrl": "https://images.unsplash.com/photo-1593492404288-e2e88a03c358?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2x2byUyMHhjNjB8ZW58MHx8fHwxNzMxNzMwNzgzfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/2022_Volvo_XC60_B5_R-Design_Pro_AWD_MHEV_2.0_Front.jpg",
       "description": "Luxury SUV focused on safety",
       "imageHint": "Volvo SUV"
     },
@@ -468,7 +468,7 @@
       "id": "59",
       "name": "WagonR",
       "brand": "Maruti Suzuki",
-      "imageUrl": "https://images.unsplash.com/photo-1619642824948-04b3a43292cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdXp1a2klMjBXYWdvblJ8ZW58MHx8fHwxNzMxODE5NTUwfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/2019_Maruti_Suzuki_Wagon_R_1.2_ZXi_front.jpg",
       "description": "Tall-boy hatchback with spacious interior",
       "imageHint": "Suzuki hatchback"
     },
@@ -476,7 +476,7 @@
       "id": "60",
       "name": "Wrangler",
       "brand": "Jeep",
-      "imageUrl": "https://images.unsplash.com/photo-1549492423-400213a5d853?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqZWVwJTIwd3JhbmdsZXJ8ZW58MHx8fHwxNzMxNzMwNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/2021_Jeep_Wrangler_Rubicon_4xe_PHEV_in_Sarge_Green%2C_Front_Right.jpg",
       "description": "Iconic off-road SUV",
       "imageHint": "Jeep SUV"
     },
@@ -484,7 +484,7 @@
       "id": "61",
       "name": "XUV700",
       "brand": "Mahindra",
-      "imageUrl": "https://images.unsplash.com/photo-1628745134153-56843058914a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWhpbmRyYSUyMFhVVjcwMHxlbnwwfHx8fDE3MzE4MTk1NzV8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/2021_Mahindra_XUV700_AX7_Luxury_P_AT_2WD_in_Everest_White.jpg",
       "description": "Feature-rich midsize SUV",
       "imageHint": "Mahindra SUV"
     },
@@ -492,7 +492,7 @@
       "id": "62",
       "name": "X5",
       "brand": "BMW",
-      "imageUrl": "https://images.unsplash.com/photo-1546625243-73a7ac622550?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibXclMjB4NXxlbnwwfHx8fDE3MxNzMwNzg1fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/2019_BMW_X5_xDrive40i.jpg",
       "description": "Luxury SUV with powerful engines",
       "imageHint": "BMW SUV"
     },
@@ -500,7 +500,7 @@
       "id": "63",
       "name": "Yaris",
       "brand": "Toyota",
-      "imageUrl": "https://images.unsplash.com/photo-1581403212891-382f6f5d8866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b3lvdGElMjB5YXJpc3xlbnwwfHx8fDE3MxNzMwNzg1fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/2020_Toyota_Yaris_Design_HEV_CVT_1.5_Front.jpg",
       "description": "Compact sedan with efficient performance",
       "imageHint": "Toyota sedan"
     },
@@ -508,7 +508,7 @@
       "id": "64",
       "name": "Yukon",
       "brand": "GMC",
-      "imageUrl": "https://images.unsplash.com/photo-1628177461239-a7a72c12b4b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnbWMlMjB5dWtvbnxlbnwwfHx8fDE3MxNzMwNzg2fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/2021_GMC_Yukon_SLT_5.3L%2C_front_11.23.20.jpg",
       "description": "Full-size premium SUV",
       "imageHint": "GMC SUV"
     },
@@ -516,7 +516,7 @@
       "id": "65",
       "name": "Z4",
       "brand": "BMW",
-      "imageUrl": "https://images.unsplash.com/photo-1562214345-6a520c410314?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibXclMjB6NHxlbnwwfHx8fDE3MxNzMwNzg2fDA&ixlibrb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/2019_BMW_Z4_M40i_3.0_Front.jpg",
       "description": "Luxury roadster with sporty dynamics",
       "imageHint": "BMW roadster"
     },
@@ -524,7 +524,7 @@
       "id": "66",
       "name": "Zoe",
       "brand": "Renault",
-      "imageUrl": "https://images.unsplash.com/photo-1616684570951-87a7d4a6c429?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZW5hdWx0JTIwem9lfGVufDB8fHx8MTczMTczMDc4N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/2020_Renault_Zoe_GT_Line_Front.jpg",
       "description": "Compact electric hatchback",
       "imageHint": "Renault hatchback"
     }
