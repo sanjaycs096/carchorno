@@ -1,5 +1,5 @@
 'use client';
-import { useFormState } from 'react-dom';
+import { useActionState } from 'react';
 import { useEffect, useRef } from 'react';
 import type { Car } from '@/lib/types';
 import { Button } from '@/components/ui/button';
@@ -18,7 +18,7 @@ type CarFormProps = {
 };
 
 export function CarForm({ car, action }: CarFormProps) {
-  const [state, formAction] = useFormState(action, { message: '', errors: {} });
+  const [state, formAction] = useActionState(action, { message: '', errors: {} });
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 

@@ -103,6 +103,15 @@
       "description": "A pioneer in electric vehicle performance and technology.",
       "imageUrl": "https://images.unsplash.com/photo-1594535182308-8ffefbb661e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlbGVjdHJpYyUyMGNhcnxlbnwwfHx8fDE3Njc1NDQ1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "electric car"
+    },
+    {
+      "id": "xtbxxu064j",
+      "name": "BMW",
+      "brand": "BMW",
+      "description": "High horsepower ,Beauty with Killer eyes",
+      "imageUrl": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/192747/m5-exterior-right-front-three-quarter-10.jpeg?isig=0&q=80&q=80",
+      "imageHint": "sports car",
+      "created_at": "2026-01-05T17:40:17.948Z"
     }
   ]
 }
