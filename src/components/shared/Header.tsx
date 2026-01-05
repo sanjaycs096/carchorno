@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Car, LogIn } from 'lucide-react';
+import { Car, LogIn, Info } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function Header() {
@@ -14,6 +14,12 @@ export function Header() {
           <span className="font-headline">CarChrono</span>
         </Link>
         <nav className="flex items-center gap-4">
+          <Button asChild variant="ghost">
+            <Link href="/about">
+              <Info className="mr-2 h-4 w-4" />
+              About
+            </Link>
+          </Button>
           <Button asChild>
             <Link href="/login">
               <LogIn className="mr-2 h-4 w-4" />
