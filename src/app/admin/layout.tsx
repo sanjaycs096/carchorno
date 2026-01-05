@@ -9,9 +9,9 @@ export default async function AdminLayout({
   await protectRoute();
 
   return (
-    <div className="flex min-h-screen">
+    <div className="flex h-screen bg-muted/40">
       <AdminSidebar />
-      <main className="flex-1 p-4 md:p-8 overflow-auto">{children}</main>
+      <main className="flex-1 overflow-auto p-4 md:p-8">{children}</main>
     </div>
   );
 }
