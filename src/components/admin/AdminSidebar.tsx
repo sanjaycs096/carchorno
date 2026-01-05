@@ -15,7 +15,7 @@ export default function AdminSidebar() {
           <span className="font-headline">CarChrono</span>
         </Link>
       </div>
-      <nav className="flex-grow p-4 space-y-2 overflow-y-auto">
+      <nav className="flex-grow p-4 space-y-2">
         <Button variant="ghost" className="w-full justify-start" asChild>
           <Link href="/admin/dashboard">
             <LayoutDashboard className="mr-2 h-4 w-4" />
