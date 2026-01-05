@@ -33,6 +33,7 @@ export function LoginForm() {
           placeholder="admin@example.com"
           required
           defaultValue="admin@example.com"
+          suppressHydrationWarning
         />
       </div>
       <div className="space-y-2">
@@ -43,6 +44,7 @@ export function LoginForm() {
           type="password"
           required
           defaultValue="password"
+          suppressHydrationWarning
         />
       </div>
 
