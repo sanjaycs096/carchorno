@@ -16,6 +16,7 @@ export default function AddCarPage() {
           <CardTitle>Car Details</CardTitle>
         </CardHeader>
         <CardContent>
+          {/* @ts-expect-error Server Action */}
           <CarForm action={addCarAction} />
         </CardContent>
       </Card>
