@@ -112,6 +112,474 @@
       "imageUrl": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/192747/m5-exterior-right-front-three-quarter-10.jpeg?isig=0&q=80&q=80",
       "imageHint": "sports car",
       "created_at": "2026-01-05T17:40:17.948Z"
+    },
+    {
+      "id": "data_1",
+      "name": "A4",
+      "brand": "Audi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/2018_Audi_A4_S_Line_2.0_Front.jpg",
+      "description": "Compact executive sedan by Audi",
+      "created_at": "2024-01-01",
+      "imageHint": "Audi sedan"
+    },
+    {
+      "id": "data_2",
+      "name": "Altima",
+      "brand": "Nissan",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/2019_Nissan_Altima_SV.jpg",
+      "description": "Midsize sedan known for comfort and efficiency",
+      "created_at": "2024-01-01",
+      "imageHint": "Nissan sedan"
+    },
+    {
+      "id": "data_3",
+      "name": "BMW X5",
+      "brand": "BMW",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/2019_BMW_X5_xDrive40i.jpg",
+      "description": "Luxury midsize SUV with strong performance",
+      "created_at": "2024-01-01",
+      "imageHint": "BMW SUV"
+    },
+    {
+      "id": "data_4",
+      "name": "Baleno",
+      "brand": "Suzuki",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Maruti_Suzuki_Baleno_2022.jpg",
+      "description": "Premium hatchback popular in India",
+      "created_at": "2024-01-01",
+      "imageHint": "Suzuki hatchback"
+    },
+    {
+      "id": "data_5",
+      "name": "Camry",
+      "brand": "Toyota",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/2018_Toyota_Camry_XLE.jpg",
+      "description": "Reliable midsize sedan with hybrid option",
+      "created_at": "2024-01-01",
+      "imageHint": "Toyota sedan"
+    },
+    {
+      "id": "data_6",
+      "name": "Civic",
+      "brand": "Honda",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/2019_Honda_Civic_EX.jpg",
+      "description": "Popular compact sedan with sporty feel",
+      "created_at": "2024-01-01",
+      "imageHint": "Honda sedan"
+    },
+    {
+      "id": "data_7",
+      "name": "Defender",
+      "brand": "Land Rover",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Land_Rover_Defender_110_2020.jpg",
+      "description": "Rugged off-road luxury SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Land Rover SUV"
+    },
+    {
+      "id": "data_8",
+      "name": "Duster",
+      "brand": "Renault",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Renault_Duster_2018.jpg",
+      "description": "Compact SUV with strong diesel options",
+      "created_at": "2024-01-01",
+      "imageHint": "Renault SUV"
+    },
+    {
+      "id": "data_9",
+      "name": "E-Class",
+      "brand": "Mercedes-Benz",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/2019_Mercedes-Benz_E-Class.jpg",
+      "description": "Luxury executive sedan",
+      "created_at": "2024-01-01",
+      "imageHint": "Mercedes-Benz sedan"
+    },
+    {
+      "id": "data_10",
+      "name": "Ecosport",
+      "brand": "Ford",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Ford_EcoSport_2018.jpg",
+      "description": "Compact SUV designed for urban driving",
+      "created_at": "2024-01-01",
+      "imageHint": "Ford SUV"
+    },
+    {
+      "id": "data_11",
+      "name": "Fortuner",
+      "brand": "Toyota",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Toyota_Fortuner_2021.jpg",
+      "description": "Full-size SUV popular in Asian markets",
+      "created_at": "2024-01-01",
+      "imageHint": "Toyota SUV"
+    },
+    {
+      "id": "data_12",
+      "name": "Fiesta",
+      "brand": "Ford",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Ford_Fiesta_2018.jpg",
+      "description": "Compact hatchback with agile handling",
+      "created_at": "2024-01-01",
+      "imageHint": "Ford hatchback"
+    },
+    {
+      "id": "data_13",
+      "name": "GLA",
+      "brand": "Mercedes-Benz",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Mercedes-Benz_GLA_2020.jpg",
+      "description": "Entry-level luxury compact SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Mercedes-Benz SUV"
+    },
+    {
+      "id": "data_14",
+      "name": "Golf",
+      "brand": "Volkswagen",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Volkswagen_Golf_Mk8.jpg",
+      "description": "Iconic premium hatchback",
+      "created_at": "2024-01-01",
+      "imageHint": "Volkswagen hatchback"
+    },
+    {
+      "id": "data_15",
+      "name": "Harrier",
+      "brand": "Tata",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Tata_Harrier_2023.jpg",
+      "description": "Mid-size SUV built on OmegaArc platform",
+      "created_at": "2024-01-01",
+      "imageHint": "Tata SUV"
+    },
+    {
+      "id": "data_16",
+      "name": "Hexa",
+      "brand": "Tata",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/33/Tata_Hexa.jpg",
+      "description": "Comfort-oriented crossover SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Tata SUV"
+    },
+    {
+      "id": "data_17",
+      "name": "Innova Crysta",
+      "brand": "Toyota",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Toyota_Innova_Crysta_2021.jpg",
+      "description": "Premium MPV known for reliability",
+      "created_at": "2024-01-01",
+      "imageHint": "Toyota MPV"
+    },
+    {
+      "id": "data_18",
+      "name": "i20",
+      "brand": "Hyundai",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Hyundai_i20_2021.jpg",
+      "description": "Premium hatchback with modern features",
+      "created_at": "2024-01-01",
+      "imageHint": "Hyundai hatchback"
+    },
+    {
+      "id": "data_19",
+      "name": "Jetta",
+      "brand": "Volkswagen",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Volkswagen_Jetta_2019.jpg",
+      "description": "Compact sedan with solid build quality",
+      "created_at": "2024-01-01",
+      "imageHint": "Volkswagen sedan"
+    },
+    {
+      "id": "data_20",
+      "name": "Jeep Compass",
+      "brand": "Jeep",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Jeep_Compass_2019.jpg",
+      "description": "Compact SUV with off-road capability",
+      "created_at": "2024-01-01",
+      "imageHint": "Jeep SUV"
+    },
+    {
+      "id": "data_21",
+      "name": "Kodiaq",
+      "brand": "Skoda",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Skoda_Kodiaq_2021.jpg",
+      "description": "7-seater luxury SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Skoda SUV"
+    },
+    {
+      "id": "data_22",
+      "name": "Kiger",
+      "brand": "Renault",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Renault_Kiger_2021.jpg",
+      "description": "Subcompact SUV with sporty styling",
+      "created_at": "2024-01-01",
+      "imageHint": "Renault SUV"
+    },
+    {
+      "id": "data_23",
+      "name": "Lancer",
+      "brand": "Mitsubishi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mitsubishi_Lancer_2009.jpg",
+      "description": "Iconic sedan with rally heritage",
+      "created_at": "2024-01-01",
+      "imageHint": "Mitsubishi sedan"
+    },
+    {
+      "id": "data_24",
+      "name": "Lexus RX",
+      "brand": "Lexus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Lexus_RX_2020.jpg",
+      "description": "Luxury midsize SUV with hybrid tech",
+      "created_at": "2024-01-01",
+      "imageHint": "Lexus SUV"
+    },
+    {
+      "id": "data_25",
+      "name": "Model S",
+      "brand": "Tesla",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_Model_S_2021.jpg",
+      "description": "Premium electric sedan with long range",
+      "created_at": "2024-01-01",
+      "imageHint": "Tesla sedan"
+    },
+    {
+      "id": "data_26",
+      "name": "Mustang",
+      "brand": "Ford",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ford_Mustang_GT_2018.jpg",
+      "description": "Legendary American muscle car",
+      "created_at": "2024-01-01",
+      "imageHint": "Ford muscle car"
+    },
+    {
+      "id": "data_27",
+      "name": "Nexon",
+      "brand": "Tata",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tata_Nexon_2023.jpg",
+      "description": "Compact SUV with high safety rating",
+      "created_at": "2024-01-01",
+      "imageHint": "Tata SUV"
+    },
+    {
+      "id": "data_28",
+      "name": "Navara",
+      "brand": "Nissan",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Nissan_Navara_2021.jpg",
+      "description": "Pickup truck with strong utility focus",
+      "created_at": "2024-01-01",
+      "imageHint": "Nissan truck"
+    },
+    {
+      "id": "data_29",
+      "name": "Octavia",
+      "brand": "Skoda",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Skoda_Octavia_2021.jpg",
+      "description": "Executive sedan with excellent driving dynamics",
+      "created_at": "2024-01-01",
+      "imageHint": "Skoda sedan"
+    },
+    {
+      "id": "data_30",
+      "name": "Outlander",
+      "brand": "Mitsubishi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Mitsubishi_Outlander_2022.jpg",
+      "description": "Family-friendly midsize SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Mitsubishi SUV"
+    },
+    {
+      "id": "data_31",
+      "name": "Polo",
+      "brand": "Volkswagen",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Volkswagen_Polo_2018.jpg",
+      "description": "Premium compact hatchback",
+      "created_at": "2024-01-01",
+      "imageHint": "Volkswagen hatchback"
+    },
+    {
+      "id": "data_32",
+      "name": "Pajero",
+      "brand": "Mitsubishi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Mitsubishi_Pajero_2019.jpg",
+      "description": "Legendary off-road SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Mitsubishi SUV"
+    },
+    {
+      "id": "data_33",
+      "name": "Q5",
+      "brand": "Audi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Audi_Q5_2021.jpg",
+      "description": "Luxury midsize SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Audi SUV"
+    },
+    {
+      "id": "data_34",
+      "name": "Q3",
+      "brand": "Audi",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Audi_Q3_2019.jpg",
+      "description": "Compact luxury SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Audi SUV"
+    },
+    {
+      "id": "data_35",
+      "name": "Rapid",
+      "brand": "Skoda",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Skoda_Rapid_2020.jpg",
+      "description": "Compact sedan with solid build",
+      "created_at": "2024-01-01",
+      "imageHint": "Skoda sedan"
+    },
+    {
+      "id": "data_36",
+      "name": "Range Rover",
+      "brand": "Land Rover",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Range_Rover_2022.jpg",
+      "description": "Flagship luxury SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Land Rover SUV"
+    },
+    {
+      "id": "data_37",
+      "name": "Safari",
+      "brand": "Tata",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Tata_Safari_2023.jpg",
+      "description": "7-seater SUV with strong road presence",
+      "created_at": "2024-01-01",
+      "imageHint": "Tata SUV"
+    },
+    {
+      "id": "data_38",
+      "name": "Swift",
+      "brand": "Maruti Suzuki",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Maruti_Suzuki_Swift_2021.jpg",
+      "description": "Popular hatchback with sporty design",
+      "created_at": "2024-01-01",
+      "imageHint": "Suzuki hatchback"
+    },
+    {
+      "id": "data_39",
+      "name": "Thar",
+      "brand": "Mahindra",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Mahindra_Thar_2021.jpg",
+      "description": "Off-road lifestyle SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Mahindra SUV"
+    },
+    {
+      "id": "data_40",
+      "name": "Tiguan",
+      "brand": "Volkswagen",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Volkswagen_Tiguan_2021.jpg",
+      "description": "Premium midsize SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Volkswagen SUV"
+    },
+    {
+      "id": "data_41",
+      "name": "Urban Cruiser",
+      "brand": "Toyota",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Toyota_Urban_Cruiser_2022.jpg",
+      "description": "Compact SUV for city driving",
+      "created_at": "2024-01-01",
+      "imageHint": "Toyota SUV"
+    },
+    {
+      "id": "data_42",
+      "name": "Urus",
+      "brand": "Lamborghini",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Lamborghini_Urus_2019.jpg",
+      "description": "High-performance luxury SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Lamborghini SUV"
+    },
+    {
+      "id": "data_43",
+      "name": "Vento",
+      "brand": "Volkswagen",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Volkswagen_Vento_2019.jpg",
+      "description": "Mid-size sedan with German engineering",
+      "created_at": "2024-01-01",
+      "imageHint": "Volkswagen sedan"
+    },
+    {
+      "id": "data_44",
+      "name": "Volvo XC60",
+      "brand": "Volvo",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Volvo_XC60_2021.jpg",
+      "description": "Luxury SUV focused on safety",
+      "created_at": "2024-01-01",
+      "imageHint": "Volvo SUV"
+    },
+    {
+      "id": "data_45",
+      "name": "WagonR",
+      "brand": "Maruti Suzuki",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Maruti_Suzuki_Wagon_R_2022.jpg",
+      "description": "Tall-boy hatchback with spacious interior",
+      "created_at": "2024-01-01",
+      "imageHint": "Suzuki hatchback"
+    },
+    {
+      "id": "data_46",
+      "name": "Wrangler",
+      "brand": "Jeep",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Jeep_Wrangler_2020.jpg",
+      "description": "Iconic off-road SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Jeep SUV"
+    },
+    {
+      "id": "data_47",
+      "name": "XUV700",
+      "brand": "Mahindra",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Mahindra_XUV700_2022.jpg",
+      "description": "Feature-rich midsize SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "Mahindra SUV"
+    },
+    {
+      "id": "data_48",
+      "name": "X5",
+      "brand": "BMW",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/2019_BMW_X5_xDrive40i.jpg",
+      "description": "Luxury SUV with powerful engines",
+      "created_at": "2024-01-01",
+      "imageHint": "BMW SUV"
+    },
+    {
+      "id": "data_49",
+      "name": "Yaris",
+      "brand": "Toyota",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Toyota_Yaris_2020.jpg",
+      "description": "Compact sedan with efficient performance",
+      "created_at": "2024-01-01",
+      "imageHint": "Toyota sedan"
+    },
+    {
+      "id": "data_50",
+      "name": "Yukon",
+      "brand": "GMC",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/GMC_Yukon_2021.jpg",
+      "description": "Full-size premium SUV",
+      "created_at": "2024-01-01",
+      "imageHint": "GMC SUV"
+    },
+    {
+      "id": "data_51",
+      "name": "Z4",
+      "brand": "BMW",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/BMW_Z4_2019.jpg",
+      "description": "Luxury roadster with sporty dynamics",
+      "created_at": "2024-01-01",
+      "imageHint": "BMW roadster"
+    },
+    {
+      "id": "data_52",
+      "name": "Zoe",
+      "brand": "Renault",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Renault_Zoe_2020.jpg",
+      "description": "Compact electric hatchback",
+      "created_at": "2024-01-01",
+      "imageHint": "Renault hatchback"
     }
   ]
 }
