@@ -51,6 +51,7 @@ export function LoginForm() {
       <Button
         type="submit"
         className="w-full transition-transform duration-200 hover:scale-105"
+        suppressHydrationWarning
       >
         <LogIn className="mr-2 h-4 w-4" />
         Log In
