@@ -14,7 +14,7 @@ import Link from 'next/link';
 import type { Car } from '@/lib/types';
 import { deleteCarAction } from '@/lib/actions';
 import { useTransition } from 'react';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '../../hooks/use-toast';
 import {
   AlertDialog,
   AlertDialogAction,
@@ -35,7 +35,7 @@ interface CarDataTableProps {
 
 export function CarDataTable({ cars }: CarDataTableProps) {
   const [isPending, startTransition] = useTransition();
-  const { toast } = use-toast();
+  const { toast } = useToast();
 
   const handleDelete = (id: string) => {
     startTransition(async () => {
