@@ -5,7 +5,7 @@ import { logout } from '@/lib/auth';
 
 export default function AdminSidebar() {
   return (
-    <aside className="w-64 bg-card border-r flex flex-col hidden md:flex">
+    <aside className="w-64 bg-card border-r flex-col hidden md:flex">
       <div className="p-4 border-b">
         <Link
           href="/"
@@ -15,7 +15,7 @@ export default function AdminSidebar() {
           <span className="font-headline">CarChrono</span>
         </Link>
       </div>
-      <nav className="flex-1 p-4 space-y-2">
+      <nav className="flex-grow p-4 space-y-2 overflow-y-auto">
         <Button variant="ghost" className="w-full justify-start" asChild>
           <Link href="/admin/dashboard">
             <LayoutDashboard className="mr-2 h-4 w-4" />
