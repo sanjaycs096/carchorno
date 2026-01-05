@@ -4,6 +4,7 @@ import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
 import { getSupabaseServerClient } from './supabase';
+import { Car } from './types';
 
 const carSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -13,7 +14,7 @@ const carSchema = z.object({
   imageHint: z.string().min(2, 'Image hint must be at least 2 characters'),
 });
 
-export async function getCars() {
+export async function getCars(): Promise<Car[]> {
   const supabase = getSupabaseServerClient();
   const { data: cars, error } = await supabase
     .from('cars')
@@ -58,6 +59,7 @@ export async function addCarAction(prevState: any, formData: FormData) {
   const { error } = await supabase.from('cars').insert([validatedFields.data]);
 
   if (error) {
+    console.error('Add car error:', error);
     return { message: 'Error: Failed to add car.' };
   }
 
@@ -89,6 +91,7 @@ export async function updateCarAction(
     .eq('id', id);
 
   if (error) {
+    console.error('Update car error:', error);
     return { message: 'Error: Failed to update car.' };
   }
 
@@ -103,6 +106,7 @@ export async function deleteCarAction(id: string) {
   const { error } = await supabase.from('cars').delete().eq('id', id);
 
   if (error) {
+    console.error('Delete car error:', error);
     return { message: 'Failed to delete car.' };
   }
 

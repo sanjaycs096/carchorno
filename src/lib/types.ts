@@ -5,5 +5,5 @@ export type Car = {
   description: string;
   imageUrl: string;
   imageHint: string;
-  created_at?: string;
+  created_at: string;
 };
