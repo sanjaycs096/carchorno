@@ -1,0 +1,66 @@
+/**
+ * Core Philosophy:
+ * This ruleset establishes a "Public Read, Secure Writes" model for the CarChrono application.
+ * The primary goal is to allow any user (authenticated or not) to view car listings,
+ * which is essential for the application's core functionality. All write operations (creating,
+ * updating, deleting cars) are currently disabled pending a necessary schema change.
+ *
+ * Data Structure:
+ * The data is organized into a single, top-level collection `/cars`. Each document
+ * within this collection, identified by a unique `carId`, represents a single car listing.
+ * There are no user-specific subcollections, simplifying the data model.
+ *
+ * Key Security Decisions:
+ * - Public Read Access: All car data in the `/cars` collection is publicly readable to support
+ *   the main feature of browsing car listings.
+ * - Writes Disabled Pending Schema Update: To securely implement owner-only writes, the 'Car'
+ *   data model must include an ownership field (e.g., 'ownerId' or 'authorId'). As this
+ *   field is currently missing, all write operations are explicitly denied to prevent
+ *   unauthorized data modification. This forces a data model correction before writes are enabled.
+ * - No User Listing: The rules do not include a `/users` collection, which prevents the
+ *   listing of application users by default.
+ *
+ * Denormalization for Authorization:
+ * This ruleset is designed with denormalization in mind. For write rules to function correctly
+ * in the future, an 'ownerId' field must be denormalized (added) directly onto each
+ * `/cars/{carId}` document. This will allow for simple, performant, and secure ownership
+ * checks without requiring expensive `get()` calls to other documents.
+ *
+ */
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    /**
+     * isSignedIn
+     * Checks if a user is authenticated.
+     */
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    /**
+     * @description
+     *   Allows public read access to all car listings but denies all write
+     *   operations until an ownership field is added to the schema to properly
+     *   authorize writes.
+     * @path /cars/{carId}
+     * @allow (get) Any user, signed in or not, can read a specific car document.
+     * @deny (create) A signed-in user attempts to create a new car document. This is
+     *   denied because the rules require an ownership field for security.
+     * @principle
+     *   Public Read with Secure Writes. Writes are currently disabled pending a
+     *   schema update to enforce document ownership.
+     */
+    match /cars/{carId} {
+      allow get: if true;
+      allow list: if true;
+
+      // CRITICAL: Cannot implement owner-only writes. The 'Car' entity is missing an 'ownerId' or 'authorId' field.
+      allow create: if false; // TODO: Add owner validation once the schema is updated with an ownership field (e.g., isSignedIn() && request.resource.data.ownerId == request.auth.uid).
+      allow update: if false; // TODO: Add owner validation once the schema is updated with an ownership field (e.g., isSignedIn() && resource.data.ownerId == request.auth.uid).
+      allow delete: if false; // TODO: Add owner validation once the schema is updated with an ownership field (e.g., isSignedIn() && resource.data.ownerId == request.auth.uid).
+    }
+  }
+}

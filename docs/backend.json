@@ -1,0 +1,67 @@
+{
+  "entities": {
+    "Car": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Car",
+      "type": "object",
+      "description": "Represents a car listing in the CarChrono application.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the Car entity."
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the car model."
+        },
+        "brand": {
+          "type": "string",
+          "description": "The brand or manufacturer of the car."
+        },
+        "description": {
+          "type": "string",
+          "description": "A detailed description of the car."
+        },
+        "imageUrl": {
+          "type": "string",
+          "description": "URL of the car's image.",
+          "format": "uri"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "brand",
+        "description",
+        "imageUrl"
+      ]
+    }
+  },
+  "auth": {
+    "providers": [
+      "password",
+      "anonymous"
+    ]
+  },
+  "firestore": {
+    "structure": [
+      {
+        "path": "/cars/{carId}",
+        "definition": {
+          "entityName": "Car",
+          "schema": {
+            "$ref": "#/backend/entities/Car"
+          },
+          "description": "Stores car details. Each document represents a car listing.",
+          "params": [
+            {
+              "name": "carId",
+              "description": "Unique identifier for the car."
+            }
+          ]
+        }
+      }
+    ],
+    "reasoning": "Given the CarChrono application's requirements for listing and managing cars, and considering the need for a simple and secure data structure, a single collection, `/cars`, will be used to store car data. This approach avoids unnecessary complexity and facilitates straightforward CRUD operations.\n\n**Authorization Independence and QAPs:**\n\n*   **No Authorization Dependence**: All car data resides in a single collection. No data depends on any parent documents. This allows for atomic read and write operations without needing to `get()` parent documents.\n*   **QAPs**: Using a single `/cars` collection allows listing all cars, which is essential for the app's core feature of displaying car listings grouped alphabetically. Since there are no complex authorization requirements, QAPs are easily met. Security rules can easily control who has access to create, read, update, or delete car documents.\n\nThe absence of user-specific data or collaborative features eliminates the need for complex authorization schemes or membership maps, simplifying both the data structure and the security rules."
+  }
+}
