@@ -1,10 +1,11 @@
 'use server';
+import { createServerClient, type CookieOptions } from '@supabase/ssr';
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 
+// In a real app, you would use Supabase Auth. For this prototype,
+// we'll use a simple cookie-based session.
 const AUTH_COOKIE_NAME = 'carchrono-auth';
-
-// In a real app, you would verify credentials against a database (e.g., Supabase/Firebase).
 const ADMIN_EMAIL = 'admin@example.com';
 const ADMIN_PASSWORD = 'password';
 

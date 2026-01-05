@@ -3,8 +3,25 @@
 import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { adminClient } from '@/lib/supabase/admin';
 import type { Car } from './types';
+import placeholderData from './placeholder-images.json';
+import { writeFile } from 'fs/promises';
+import { resolve } from 'path';
+
+// In a real app, this would be a database call.
+// For this prototype, we're reading from a JSON file.
+async function getCarsData(): Promise<Car[]> {
+  // The data has an extra wrapper object, so we access it here.
+  return placeholderData.placeholderImages as Car[];
+}
+
+// In a real app, this would write to a database.
+// For this prototype, we're writing to a JSON file.
+async function setCarsData(cars: Car[]) {
+  const filePath = resolve(process.cwd(), 'src/lib/placeholder-images.json');
+  const updatedData = { placeholderImages: cars };
+  await writeFile(filePath, JSON.stringify(updatedData, null, 2), 'utf-8');
+}
 
 const carSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -15,36 +32,24 @@ const carSchema = z.object({
 });
 
 export async function getCars(): Promise<Car[]> {
-  const supabase = adminClient();
-  const { data: cars, error } = await supabase
-    .from('cars')
-    .select('id, name, brand, description, imageUrl, imageHint, created_at')
-    .order('name', { ascending: true });
-
-  if (error) {
-    console.error('Error fetching cars:', { code: error.code, message: error.message });
+  try {
+    const cars = await getCarsData();
+    // sort alphabetically by name
+    cars.sort((a, b) => a.name.localeCompare(b.name));
+    return cars;
+  } catch (error) {
+    console.error('Error fetching cars:', error);
     return [];
   }
-  return cars || [];
 }
 
 export async function getCarById(id: string) {
-  const supabase = adminClient();
-  const { data, error } = await supabase
-    .from('cars')
-    .select('*')
-    .eq('id', id)
-    .single();
-
-  if (error) {
-    console.error('Error fetching car by id:', { code: error.code, message: error.message });
-    return null;
-  }
-  return data;
+  const cars = await getCarsData();
+  const car = cars.find((car) => car.id === id);
+  return car || null;
 }
 
 export async function addCarAction(prevState: any, formData: FormData) {
-  const supabase = adminClient();
   const validatedFields = carSchema.safeParse(
     Object.fromEntries(formData.entries())
   );
@@ -56,10 +61,17 @@ export async function addCarAction(prevState: any, formData: FormData) {
     };
   }
 
-  const { error } = await supabase.from('cars').insert([validatedFields.data]);
-
-  if (error) {
-    console.error('Add car error:', { code: error.code, message: error.message });
+  try {
+    const cars = await getCarsData();
+    const newCar: Car = {
+      id: (Math.random() + 1).toString(36).substring(2), // simple unique id
+      ...validatedFields.data,
+      created_at: new Date().toISOString(),
+    };
+    const updatedCars = [...cars, newCar];
+    await setCarsData(updatedCars);
+  } catch (error) {
+    console.error('Add car error:', error);
     return { message: 'Error: Failed to add car.' };
   }
 
@@ -73,7 +85,6 @@ export async function updateCarAction(
   prevState: any,
   formData: FormData
 ) {
-  const supabase = adminClient();
   const validatedFields = carSchema.safeParse(
     Object.fromEntries(formData.entries())
   );
@@ -85,13 +96,17 @@ export async function updateCarAction(
     };
   }
 
-  const { error } = await supabase
-    .from('cars')
-    .update(validatedFields.data)
-    .eq('id', id);
-
-  if (error) {
-    console.error('Update car error:', { code: error.code, message: error.message });
+  try {
+    const cars = await getCarsData();
+    const updatedCars = cars.map((car) => {
+      if (car.id === id) {
+        return { ...car, ...validatedFields.data };
+      }
+      return car;
+    });
+    await setCarsData(updatedCars);
+  } catch (error) {
+    console.error('Update car error:', error);
     return { message: 'Error: Failed to update car.' };
   }
 
@@ -102,11 +117,12 @@ export async function updateCarAction(
 }
 
 export async function deleteCarAction(id: string) {
-  const supabase = adminClient();
-  const { error } = await supabase.from('cars').delete().eq('id', id);
-
-  if (error) {
-    console.error('Delete car error:', { code: error.code, message: error.message });
+  try {
+    const cars = await getCarsData();
+    const updatedCars = cars.filter((car) => car.id !== id);
+    await setCarsData(updatedCars);
+  } catch (error) {
+    console.error('Delete car error:', error);
     return { message: 'Failed to delete car.' };
   }
 
