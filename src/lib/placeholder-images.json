@@ -117,7 +117,7 @@
       "id": "data_1",
       "car_name": "A4",
       "brand": "Audi",
-      "imageUrl": "https://www.cardekho.com/audi/a4",
+      "imageUrl": "https://en.wikipedia.org/wiki/Audi_A4",
       "description": "Compact executive sedan by Audi",
       "created_at": "2024-01-01",
       "imageHint": "Audi sedan"
