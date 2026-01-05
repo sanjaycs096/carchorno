@@ -5,7 +5,7 @@ import { logout } from '@/lib/auth';
 
 export default function AdminSidebar() {
   return (
-    <aside className="w-64 bg-card border-r flex-col hidden md:flex">
+    <aside className="w-64 bg-card border-r flex flex-col hidden md:flex">
       <div className="p-4 border-b">
         <Link
           href="/"
