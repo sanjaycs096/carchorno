@@ -15,6 +15,7 @@ export default async function EditCarPage({ params }: { params: { id: string } }
     notFound();
   }
 
+  // @ts-expect-error - Server Action
   const updateCarActionWithId = updateCarAction.bind(null, car.id);
 
   return (

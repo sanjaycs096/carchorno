@@ -3,8 +3,8 @@
 import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { getSupabaseServerClient } from './supabase';
-import { Car } from './types';
+import { createServerClient } from '@/lib/supabase/server';
+import type { Car } from './types';
 
 const carSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -15,21 +15,21 @@ const carSchema = z.object({
 });
 
 export async function getCars(): Promise<Car[]> {
-  const supabase = getSupabaseServerClient();
+  const supabase = createServerClient();
   const { data: cars, error } = await supabase
     .from('cars')
-    .select('*')
+    .select('id, name, brand, description, imageUrl, imageHint, created_at')
     .order('name', { ascending: true });
 
   if (error) {
-    console.error('Error fetching cars:', error);
+    console.error('Error fetching cars:', { code: error.code, message: error.message });
     return [];
   }
   return cars || [];
 }
 
 export async function getCarById(id: string) {
-  const supabase = getSupabaseServerClient();
+  const supabase = createServerClient();
   const { data, error } = await supabase
     .from('cars')
     .select('*')
@@ -37,14 +37,14 @@ export async function getCarById(id: string) {
     .single();
 
   if (error) {
-    console.error('Error fetching car by id:', error);
+    console.error('Error fetching car by id:', { code: error.code, message: error.message });
     return null;
   }
   return data;
 }
 
 export async function addCarAction(prevState: any, formData: FormData) {
-  const supabase = getSupabaseServerClient();
+  const supabase = createServerClient();
   const validatedFields = carSchema.safeParse(
     Object.fromEntries(formData.entries())
   );
@@ -59,7 +59,7 @@ export async function addCarAction(prevState: any, formData: FormData) {
   const { error } = await supabase.from('cars').insert([validatedFields.data]);
 
   if (error) {
-    console.error('Add car error:', error);
+    console.error('Add car error:', { code: error.code, message: error.message });
     return { message: 'Error: Failed to add car.' };
   }
 
@@ -73,7 +73,7 @@ export async function updateCarAction(
   prevState: any,
   formData: FormData
 ) {
-  const supabase = getSupabaseServerClient();
+  const supabase = createServerClient();
   const validatedFields = carSchema.safeParse(
     Object.fromEntries(formData.entries())
   );
@@ -91,7 +91,7 @@ export async function updateCarAction(
     .eq('id', id);
 
   if (error) {
-    console.error('Update car error:', error);
+    console.error('Update car error:', { code: error.code, message: error.message });
     return { message: 'Error: Failed to update car.' };
   }
 
@@ -102,11 +102,11 @@ export async function updateCarAction(
 }
 
 export async function deleteCarAction(id: string) {
-  const supabase = getSupabaseServerClient();
+  const supabase = createServerClient();
   const { error } = await supabase.from('cars').delete().eq('id', id);
 
   if (error) {
-    console.error('Delete car error:', error);
+    console.error('Delete car error:', { code: error.code, message: error.message });
     return { message: 'Failed to delete car.' };
   }
 
