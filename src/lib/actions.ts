@@ -3,7 +3,7 @@
 import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { createServerClient } from '@/lib/supabase/server';
+import { adminClient } from '@/lib/supabase/admin';
 import type { Car } from './types';
 
 const carSchema = z.object({
@@ -15,7 +15,7 @@ const carSchema = z.object({
 });
 
 export async function getCars(): Promise<Car[]> {
-  const supabase = createServerClient();
+  const supabase = adminClient();
   const { data: cars, error } = await supabase
     .from('cars')
     .select('id, name, brand, description, imageUrl, imageHint, created_at')
@@ -29,7 +29,7 @@ export async function getCars(): Promise<Car[]> {
 }
 
 export async function getCarById(id: string) {
-  const supabase = createServerClient();
+  const supabase = adminClient();
   const { data, error } = await supabase
     .from('cars')
     .select('*')
@@ -44,7 +44,7 @@ export async function getCarById(id: string) {
 }
 
 export async function addCarAction(prevState: any, formData: FormData) {
-  const supabase = createServerClient();
+  const supabase = adminClient();
   const validatedFields = carSchema.safeParse(
     Object.fromEntries(formData.entries())
   );
@@ -73,7 +73,7 @@ export async function updateCarAction(
   prevState: any,
   formData: FormData
 ) {
-  const supabase = createServerClient();
+  const supabase = adminClient();
   const validatedFields = carSchema.safeParse(
     Object.fromEntries(formData.entries())
   );
@@ -102,7 +102,7 @@ export async function updateCarAction(
 }
 
 export async function deleteCarAction(id: string) {
-  const supabase = createServerClient();
+  const supabase = adminClient();
   const { error } = await supabase.from('cars').delete().eq('id', id);
 
   if (error) {
