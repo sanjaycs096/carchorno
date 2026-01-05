@@ -115,7 +115,7 @@
     },
     {
       "id": "data_1",
-      "name": "A4",
+      "car_name": "A4",
       "brand": "Audi",
       "imageUrl": "https://images.unsplash.com/photo-1619428193862-a25381a357c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdWRpJTIwYTR8ZW58MHx8fHwxNzMxNzMwMzAyfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact executive sedan by Audi",
@@ -124,7 +124,7 @@
     },
     {
       "id": "data_2",
-      "name": "Altima",
+      "car_name": "Altima",
       "brand": "Nissan",
       "imageUrl": "https://images.unsplash.com/photo-1632311666498-89c933e4a2d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuaXNzYW4lMjBhbHRpbWF8ZW58MHx8fHwxNzMxNzMwMzAyfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Midsize sedan known for comfort and efficiency",
@@ -133,7 +133,7 @@
     },
     {
       "id": "data_3",
-      "name": "BMW X5",
+      "car_name": "BMW X5",
       "brand": "BMW",
       "imageUrl": "https://images.unsplash.com/photo-1546625243-73a7ac622550?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibXclMjB4NXxlbnwwfHx8fDE3MzE3MzAzMDN8MA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Luxury midsize SUV with strong performance",
@@ -142,7 +142,7 @@
     },
     {
       "id": "data_4",
-      "name": "Baleno",
+      "car_name": "Baleno",
       "brand": "Suzuki",
       "imageUrl": "https://images.unsplash.com/photo-1644222069212-324c29990c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdXp1a2klMjBiYWxlbm98ZW58MHx8fHwxNzMxNzMwMzA0fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Premium hatchback popular in India",
@@ -151,7 +151,7 @@
     },
     {
       "id": "data_5",
-      "name": "Camry",
+      "car_name": "Camry",
       "brand": "Toyota",
       "imageUrl": "https://images.unsplash.com/photo-1621706341910-e7a1c0d45e07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b3lvdGElMjBjYW1yeXxlbnwwfHx8fDE3MxNzMwMzA0fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Reliable midsize sedan with hybrid option",
@@ -160,7 +160,7 @@
     },
     {
       "id": "data_6",
-      "name": "Civic",
+      "car_name": "Civic",
       "brand": "Honda",
       "imageUrl": "https://images.unsplash.com/photo-1552843412-1ce5b5c734a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob25kYSUyMGNpdmljfGVufDB8fHx8MTczMTczMDMwNXww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Popular compact sedan with sporty feel",
@@ -169,7 +169,7 @@
     },
     {
       "id": "data_7",
-      "name": "Defender",
+      "car_name": "Defender",
       "brand": "Land Rover",
       "imageUrl": "https://images.unsplash.com/photo-1605346385258-6a72f4116744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYW5kJTIwcm92ZXIlMjBkZWZlbmRlcnxlbnwwfHx8fDE3MxNzMwMzA1fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Rugged off-road luxury SUV",
@@ -178,7 +178,7 @@
     },
     {
       "id": "data_8",
-      "name": "Duster",
+      "car_name": "Duster",
       "brand": "Renault",
       "imageUrl": "https://images.unsplash.com/photo-1596743343497-e07544d18961?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZW5hdWx0JTIwZHVzdGVyfGVufDB8fHx8MTczMTczMDMwNnww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact SUV with strong diesel options",
@@ -187,7 +187,7 @@
     },
     {
       "id": "data_9",
-      "name": "E-Class",
+      "car_name": "E-Class",
       "brand": "Mercedes-Benz",
       "imageUrl": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZXJjZWRlcyUyMGUtY2xhc3N8ZW58MHx8fHwxNzMxNzMwMzA2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Luxury executive sedan",
@@ -196,7 +196,7 @@
     },
     {
       "id": "data_10",
-      "name": "Ecosport",
+      "car_name": "Ecosport",
       "brand": "Ford",
       "imageUrl": "https://images.unsplash.com/photo-1606612391269-ac634a8a05e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb3JkJTIwZWNvc3BvcnR8ZW58MHx8fHwxNzMxNzMwMzA3fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact SUV designed for urban driving",
@@ -205,7 +205,7 @@
     },
     {
       "id": "data_11",
-      "name": "Fortuner",
+      "car_name": "Fortuner",
       "brand": "Toyota",
       "imageUrl": "https://images.unsplash.com/photo-1631215109618-b080f4a92a2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b3lvdGElMjBmb3J0dW5lcnxlbnwwfHx8fDE3MxNzMwMzA3fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Full-size SUV popular in Asian markets",
@@ -214,7 +214,7 @@
     },
     {
       "id": "data_12",
-      "name": "Fiesta",
+      "car_name": "Fiesta",
       "brand": "Ford",
       "imageUrl": "https://images.unsplash.com/photo-1580562828695-b659c8c45d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb3JkJTIwZmllc3RhfGVufDB8fHx8MTczMTczMDMwOHww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact hatchback with agile handling",
@@ -223,7 +223,7 @@
     },
     {
       "id": "data_13",
-      "name": "GLA",
+      "car_name": "GLA",
       "brand": "Mercedes-Benz",
       "imageUrl": "https://images.unsplash.com/photo-1623864018379-99a419c8f2a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZXJjZWRlcyUyMGdsYXxlbnwwfHx8fDE3MxNzMwMzA4fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Entry-level luxury compact SUV",
@@ -232,7 +232,7 @@
     },
     {
       "id": "data_14",
-      "name": "Golf",
+      "car_name": "Golf",
       "brand": "Volkswagen",
       "imageUrl": "https://images.unsplash.com/photo-1541443131876-44b43de75317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2xrc3dhZ2VuJTIwZ29sZnxlbnwwfHx8fDE3MxNzMwMzA5fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Iconic premium hatchback",
@@ -241,7 +241,7 @@
     },
     {
       "id": "data_15",
-      "name": "Harrier",
+      "car_name": "Harrier",
       "brand": "Tata",
       "imageUrl": "https://images.unsplash.com/photo-1677610023637-2937e5898839?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0YXRhJTIwaGFycmllcnxlbnwwfHx8fDE3MxNzMwMzA5fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Mid-size SUV built on OmegaArc platform",
@@ -250,25 +250,25 @@
     },
     {
       "id": "data_16",
-      "name": "Hexa",
+      "car_name": "Hexa",
       "brand": "Tata",
-      "imageUrl": "https://imgd.aeplcdn.com/1280x720/cw/ec/21625/Tata-Hexa-Exterior-129402.jpg?wm=0&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1629828225899-a8a245d8b8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxUYXRhJTIwSGV4YSUyMHN1dnxlbnwwfHx8fDE3MzE4MTkyMDN8MA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Comfort-oriented crossover SUV",
       "created_at": "2024-01-01",
       "imageHint": "Tata SUV"
     },
     {
       "id": "data_17",
-      "name": "Innova Crysta",
+      "car_name": "Innova Crysta",
       "brand": "Toyota",
-      "imageUrl": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/140809/innova-crysta-exterior-right-front-three-quarter.jpeg?isig=0&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1601362840436-857395015b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxUb3lvdGElMjBJbm5vdmElMjBDcnlzdGF8ZW58MHx8fHwxNzMxODE5MjMwfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Premium MPV known for reliability",
       "created_at": "2024-01-01",
       "imageHint": "Toyota MPV"
     },
     {
       "id": "data_18",
-      "name": "i20",
+      "car_name": "i20",
       "brand": "Hyundai",
       "imageUrl": "https://images.unsplash.com/photo-1613912108493-9cd35058913c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoeXVuZGFpJTIwaTIwfGVufDB8fHx8MTczMTczMDMxMXww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Premium hatchback with modern features",
@@ -277,7 +277,7 @@
     },
     {
       "id": "data_19",
-      "name": "Jetta",
+      "car_name": "Jetta",
       "brand": "Volkswagen",
       "imageUrl": "https://images.unsplash.com/photo-1599837563143-6923d6a699ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2xrc3dhZ2VuJTIwamV0dGF8ZW58MHx8fHwxNzMxNzMwMzEyfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact sedan with solid build quality",
@@ -286,7 +286,7 @@
     },
     {
       "id": "data_20",
-      "name": "Jeep Compass",
+      "car_name": "Jeep Compass",
       "brand": "Jeep",
       "imageUrl": "https://images.unsplash.com/photo-1552863773-4b6842491b3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqZWVwJTIwY29tcGFzc3xlbnwwfHx8fDE3MxNzMwMzEyfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact SUV with off-road capability",
@@ -295,7 +295,7 @@
     },
     {
       "id": "data_21",
-      "name": "Kodiaq",
+      "car_name": "Kodiaq",
       "brand": "Skoda",
       "imageUrl": "https://images.unsplash.com/photo-1628127341303-34988082697a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza29kYSUyMGtvZGlhcXxlbnwwfHx8fDE3MxNzMwMzEzfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "7-seater luxury SUV",
@@ -304,16 +304,16 @@
     },
     {
       "id": "data_22",
-      "name": "Kiger",
+      "car_name": "Kiger",
       "brand": "Renault",
-      "imageUrl": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/48530/kiger-exterior-right-front-three-quarter-2.jpeg?q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1624343360498-361537fad636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxSZW5hdWx0JTIwS2lnZXJ8ZW58MHx8fHwxNzMxODE5Mjg1fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Subcompact SUV with sporty styling",
       "created_at": "2024-01-01",
       "imageHint": "Renault SUV"
     },
     {
       "id": "data_23",
-      "name": "Lancer",
+      "car_name": "Lancer",
       "brand": "Mitsubishi",
       "imageUrl": "https://images.unsplash.com/photo-1553755492-748154e56999?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaXRzdWJpc2hpJTIwbGFuY2VyfGVufDB8fHx8MTczMTczMDMxNHww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Iconic sedan with rally heritage",
@@ -322,7 +322,7 @@
     },
     {
       "id": "data_24",
-      "name": "Lexus RX",
+      "car_name": "Lexus RX",
       "brand": "Lexus",
       "imageUrl": "https://images.unsplash.com/photo-1618062590235-3c13c72b217a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZXh1cyUyMHJ4fGVufDB8fHx8MTczMTczMDMxNHww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Luxury midsize SUV with hybrid tech",
@@ -331,7 +331,7 @@
     },
     {
       "id": "data_25",
-      "name": "Model S",
+      "car_name": "Model S",
       "brand": "Tesla",
       "imageUrl": "https://images.unsplash.com/photo-1544992495-3b95501b17b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZXNsYSUyMG1vZGVsJTIwc3xlbnwwfHx8fDE3MzE3MzA3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Premium electric sedan with long range",
@@ -340,7 +340,7 @@
     },
     {
       "id": "data_26",
-      "name": "Mustang",
+      "car_name": "Mustang",
       "brand": "Ford",
       "imageUrl": "https://images.unsplash.com/photo-1549221571-c27c0e78c858?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb3JkJTIwbXVzdGFuZ3xlbnwwfHx8fDE3MzE3MzA3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Legendary American muscle car",
@@ -349,16 +349,16 @@
     },
     {
       "id": "data_27",
-      "name": "Nexon",
+      "car_name": "Nexon",
       "brand": "Tata",
-      "imageUrl": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/158139/nexon-facelift-exterior-right-front-three-quarter.jpeg?isig=0&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1629828225899-a8a245d8b8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxUYXRhJTIwTmV4b258ZW58MHx8fHwxNzMxODE5MzMxfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact SUV with high safety rating",
       "created_at": "2024-01-01",
       "imageHint": "Tata SUV"
     },
     {
       "id": "data_28",
-      "name": "Navara",
+      "car_name": "Navara",
       "brand": "Nissan",
       "imageUrl": "https://images.unsplash.com/photo-1628863352615-99810a9761a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuaXNzYW4lMjBuYXZhcmF8ZW58MHx8fHwxNzMxNzMwNzc0fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Pickup truck with strong utility focus",
@@ -367,7 +367,7 @@
     },
     {
       "id": "data_29",
-      "name": "Octavia",
+      "car_name": "Octavia",
       "brand": "Skoda",
       "imageUrl": "https://images.unsplash.com/photo-1616621115082-d2f6f403f273?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza29kYSUyMG9jdGF2aWF8ZW58MHx8fHwxNzMxNzMwNzc1fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Executive sedan with excellent driving dynamics",
@@ -376,7 +376,7 @@
     },
     {
       "id": "data_30",
-      "name": "Outlander",
+      "car_name": "Outlander",
       "brand": "Mitsubishi",
       "imageUrl": "https://images.unsplash.com/photo-1613945952936-237415178652?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaXRzdWJpc2hpJTIwb3V0bGFuZGVyfGVufDB8fHx8MTczMTczMDc3NXww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Family-friendly midsize SUV",
@@ -385,7 +385,7 @@
     },
     {
       "id": "data_31",
-      "name": "Polo",
+      "car_name": "Polo",
       "brand": "Volkswagen",
       "imageUrl": "https://images.unsplash.com/photo-1599838938972-7634fab96b8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2xrc3dhZ2VuJTIwcG9sb3xlbnwwfHx8fDE3MxNzMwNzc2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Premium compact hatchback",
@@ -394,16 +394,16 @@
     },
     {
       "id": "data_32",
-      "name": "Pajero",
+      "car_name": "Pajero",
       "brand": "Mitsubishi",
-      "imageUrl": "https://imgd.aeplcdn.com/1280x720/cw/ec/2 pajero sport/mitsubishi-pajero-sport-right-front-three-quarter-3.jpeg?wm=0&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1601362840436-857395015b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNaXRzdWJpc2hpJTIwUGFqZXJvfGVufDB8fHx8MTczMTgxOTM4MHww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Legendary off-road SUV",
       "created_at": "2024-01-01",
       "imageHint": "Mitsubishi SUV"
     },
     {
       "id": "data_33",
-      "name": "Q5",
+      "car_name": "Q5",
       "brand": "Audi",
       "imageUrl": "https://images.unsplash.com/photo-1617066804533-3151838636a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdWRpJTIwcTV8ZW58MHx8fHwxNzMxNzMwNzc3fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Luxury midsize SUV",
@@ -412,7 +412,7 @@
     },
     {
       "id": "data_34",
-      "name": "Q3",
+      "car_name": "Q3",
       "brand": "Audi",
       "imageUrl": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhdWRpJTIwcTN8ZW58MHx8fHwxNzMxNzMwNzc4fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact luxury SUV",
@@ -421,16 +421,16 @@
     },
     {
       "id": "data_35",
-      "name": "Rapid",
+      "car_name": "Rapid",
       "brand": "Skoda",
-      "imageUrl": "https://imgd.aeplcdn.com/1280x720/cw/ec/2 Rapid/skoda-rapid-right-front-three-quarter-2.jpeg?wm=0&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1616621115082-d2f6f403f273?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxTa29kYSUyMFJhcGlkfGVufDB8fHx8MTczMTgxOTQxM3ww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact sedan with solid build",
       "created_at": "2024-01-01",
       "imageHint": "Skoda sedan"
     },
     {
       "id": "data_36",
-      "name": "Range Rover",
+      "car_name": "Range Rover",
       "brand": "Land Rover",
       "imageUrl": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYW5nZSUyMHJvdmVyfGVufDB8fHx8MTczMTczMDc3OXww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Flagship luxury SUV",
@@ -439,16 +439,16 @@
     },
     {
       "id": "data_37",
-      "name": "Safari",
+      "car_name": "Safari",
       "brand": "Tata",
-      "imageUrl": "https://images.unsplash.com/photo-1677610023423-43b45olb4b4d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0YXRhJTIwc2FmYXJpfGVufDB8fHx8MTczMTczMDc3OXww&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1629828225899-a8a245d8b8a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxUYXRhJTIwU2FmYXJpfGVufDB8fHx8MTczMTgxOTQzOXww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "7-seater SUV with strong road presence",
       "created_at": "2024-01-01",
       "imageHint": "Tata SUV"
     },
     {
       "id": "data_38",
-      "name": "Swift",
+      "car_name": "Swift",
       "brand": "Maruti Suzuki",
       "imageUrl": "https://images.unsplash.com/photo-1619642824948-04b3a43292cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdXp1a2klMjBzd2lmdHxlbnwwfHx8fDE3MxNzMwNzgwfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Popular hatchback with sporty design",
@@ -457,7 +457,7 @@
     },
     {
       "id": "data_39",
-      "name": "Thar",
+      "car_name": "Thar",
       "brand": "Mahindra",
       "imageUrl": "https://images.unsplash.com/photo-1628745134153-56843058914a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWhpbmRyYSUyMHRoYXJ8ZW58MHx8fHwxNzMxNzMwNzgwfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Off-road lifestyle SUV",
@@ -466,7 +466,7 @@
     },
     {
       "id": "data_40",
-      "name": "Tiguan",
+      "car_name": "Tiguan",
       "brand": "Volkswagen",
       "imageUrl": "https://images.unsplash.com/photo-1632882800363-d110de9817a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2xrc3dhZ2VuJTIwdGlndWFufGVufDB8fHx8MTczMTczMDc4MXww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Premium midsize SUV",
@@ -475,16 +475,16 @@
     },
     {
       "id": "data_41",
-      "name": "Urban Cruiser",
+      "car_name": "Urban Cruiser",
       "brand": "Toyota",
-      "imageUrl": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/128413/urban-cruiser-hyryder-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1601362840436-857395015b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxUb3lvdGElMjBVcmJhbglMjBDcnVpc2VyfGVufDB8fHx8MTczMTgxOTQ5OXww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact SUV for city driving",
       "created_at": "2024-01-01",
       "imageHint": "Toyota SUV"
     },
     {
       "id": "data_42",
-      "name": "Urus",
+      "car_name": "Urus",
       "brand": "Lamborghini",
       "imageUrl": "https://images.unsplash.com/photo-1541348263662-e068662d82af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYW1ib3JnaGluaSUyMHVydXN8ZW58MHx8fHwxNzMxNzMwNzgyfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "High-performance luxury SUV",
@@ -493,16 +493,16 @@
     },
     {
       "id": "data_43",
-      "name": "Vento",
+      "car_name": "Vento",
       "brand": "Volkswagen",
-      "imageUrl": "https://imgd.aeplcdn.com/1280x720/cw/ec/40024/Volkswagen-Vento-Right-Front-Three-Quarter-159503.jpg?wm=0&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1599837563143-6923d6a699ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxWb2xrc3dhZ2VuJTIwVmVudG98ZW58MHx8fHwxNzMxODE5NTI2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Mid-size sedan with German engineering",
       "created_at": "2024-01-01",
       "imageHint": "Volkswagen sedan"
     },
     {
       "id": "data_44",
-      "name": "Volvo XC60",
+      "car_name": "Volvo XC60",
       "brand": "Volvo",
       "imageUrl": "https://images.unsplash.com/photo-1593492404288-e2e88a03c358?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2x2byUyMHhjNjB8ZW58MHx8fHwxNzMxNzMwNzgzfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Luxury SUV focused on safety",
@@ -511,16 +511,16 @@
     },
     {
       "id": "data_45",
-      "name": "WagonR",
+      "car_name": "WagonR",
       "brand": "Maruti Suzuki",
-      "imageUrl": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/102535/wagon-r-2022-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1619642824948-04b3a43292cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdXp1a2klMjBXYWdvblJ8ZW58MHx8fHwxNzMxODE5NTUwfDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Tall-boy hatchback with spacious interior",
       "created_at": "2024-01-01",
       "imageHint": "Suzuki hatchback"
     },
     {
       "id": "data_46",
-      "name": "Wrangler",
+      "car_name": "Wrangler",
       "brand": "Jeep",
       "imageUrl": "https://images.unsplash.com/photo-1549492423-400213a5d853?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqZWVwJTIwd3JhbmdsZXJ8ZW58MHx8fHwxNzMxNzMwNzg0fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Iconic off-road SUV",
@@ -529,16 +529,16 @@
     },
     {
       "id": "data_47",
-      "name": "XUV700",
+      "car_name": "XUV700",
       "brand": "Mahindra",
-      "imageUrl": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/42074/mahindra-xuv700-right-front-three-quarter5.jpeg?isig=0&q=80",
+      "imageUrl": "https://images.unsplash.com/photo-1628745134153-56843058914a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWhpbmRyYSUyMFhVVjcwMHxlbnwwfHx8fDE3MzE4MTk1NzV8MA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Feature-rich midsize SUV",
       "created_at": "2024-01-01",
       "imageHint": "Mahindra SUV"
     },
     {
       "id": "data_48",
-      "name": "X5",
+      "car_name": "X5",
       "brand": "BMW",
       "imageUrl": "https://images.unsplash.com/photo-1546625243-73a7ac622550?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibXclMjB4NXxlbnwwfHx8fDE3MxNzMwNzg1fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Luxury SUV with powerful engines",
@@ -547,7 +547,7 @@
     },
     {
       "id": "data_49",
-      "name": "Yaris",
+      "car_name": "Yaris",
       "brand": "Toyota",
       "imageUrl": "https://images.unsplash.com/photo-1581403212891-382f6f5d8866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b3lvdGElMjB5YXJpc3xlbnwwfHx8fDE3MxNzMwNzg1fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact sedan with efficient performance",
@@ -556,7 +556,7 @@
     },
     {
       "id": "data_50",
-      "name": "Yukon",
+      "car_name": "Yukon",
       "brand": "GMC",
       "imageUrl": "https://images.unsplash.com/photo-1628177461239-a7a72c12b4b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnbWMlMjB5dWtvbnxlbnwwfHx8fDE3MxNzMwNzg2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Full-size premium SUV",
@@ -565,7 +565,7 @@
     },
     {
       "id": "data_51",
-      "name": "Z4",
+      "car_name": "Z4",
       "brand": "BMW",
       "imageUrl": "https://images.unsplash.com/photo-1562214345-6a520c410314?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibXclMjB6NHxlbnwwfHx8fDE3MxNzMwNzg2fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Luxury roadster with sporty dynamics",
@@ -574,7 +574,7 @@
     },
     {
       "id": "data_52",
-      "name": "Zoe",
+      "car_name": "Zoe",
       "brand": "Renault",
       "imageUrl": "https://images.unsplash.com/photo-1616684570951-87a7d4a6c429?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZW5hdWx0JTIwem9lfGVufDB8fHx8MTczMTczMDc4N3ww&ixlib=rb-4.0.3&q=80&w=1080",
       "description": "Compact electric hatchback",
