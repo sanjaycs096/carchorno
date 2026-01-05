@@ -5,19 +5,33 @@ import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
 import { promises as fs } from 'fs';
 import path from 'path';
+import crypto from 'crypto';
 
 import type { Car } from './types';
 
-// In a real app, this would be a database call.
-// For this prototype, we're reading from a JSON file.
-async function getCarsData(): Promise<Car[]> {
-  const filePath = path.join(
-    process.cwd(),
-    'src/lib/placeholder-images.json'
-  );
-  const jsonData = await fs.readFile(filePath, 'utf-8');
-  const data = JSON.parse(jsonData);
-  return data.placeholderImages;
+const dataFilePath = path.join(
+  process.cwd(),
+  'src/lib/placeholder-images.json'
+);
+
+// Helper function to read the JSON data file
+async function getCarsData(): Promise<{ placeholderImages: Car[] }> {
+  try {
+    const jsonData = await fs.readFile(dataFilePath, 'utf-8');
+    return JSON.parse(jsonData);
+  } catch (error) {
+    console.error('Error reading data file:', error);
+    return { placeholderImages: [] };
+  }
+}
+
+// Helper function to write to the JSON data file
+async function writeCarsData(data: { placeholderImages: Car[] }) {
+  try {
+    await fs.writeFile(dataFilePath, JSON.stringify(data, null, 2), 'utf-8');
+  } catch (error) {
+    console.error('Error writing data file:', error);
+  }
 }
 
 const carSchema = z.object({
@@ -30,7 +44,8 @@ const carSchema = z.object({
 
 export async function getCars(): Promise<Car[]> {
   try {
-    const cars = await getCarsData();
+    const data = await getCarsData();
+    const cars = data.placeholderImages || [];
     // sort alphabetically by name
     cars.sort((a, b) => (a.name || a.car_name).localeCompare(b.name || b.car_name));
     return cars.map(car => ({...car, name: car.name || car.car_name}));
@@ -41,7 +56,8 @@ export async function getCars(): Promise<Car[]> {
 }
 
 export async function getCarById(id: string) {
-  const cars = await getCarsData();
+  const data = await getCarsData();
+  const cars = data.placeholderImages || [];
   const car = cars.find((car) => car.id === id);
   if (car) {
     return {...car, name: car.name || car.car_name};
@@ -61,9 +77,23 @@ export async function addCarAction(prevState: any, formData: FormData) {
     };
   }
 
-  // This is a prototype, so we won't actually save to the JSON file.
-  // In a real app, you would add the new car to the database here.
-  console.log('New car data:', validatedFields.data);
+  try {
+    const data = await getCarsData();
+    const newCar: Car = {
+      id: crypto.randomBytes(8).toString('hex'), // Generate a unique ID
+      ...validatedFields.data,
+      created_at: new Date().toISOString(),
+    };
+
+    data.placeholderImages.push(newCar);
+    await writeCarsData(data);
+
+  } catch (error) {
+    console.error('Failed to add car:', error);
+    return {
+      message: 'Error: Failed to add car data.'
+    }
+  }
 
   revalidatePath('/admin/dashboard');
   revalidatePath('/');
@@ -86,9 +116,29 @@ export async function updateCarAction(
     };
   }
 
-  // This is a prototype, so we won't actually update the JSON file.
-  // In a real app, you would update the car in the database here.
-  console.log('Updated car data for ID', id, ':', validatedFields.data);
+  try {
+    const data = await getCarsData();
+    const carIndex = data.placeholderImages.findIndex((car) => car.id === id);
+
+    if (carIndex === -1) {
+      return { message: 'Error: Car not found.' };
+    }
+
+    const carToUpdate = data.placeholderImages[carIndex];
+
+    data.placeholderImages[carIndex] = {
+      ...carToUpdate,
+      ...validatedFields.data,
+    };
+
+    await writeCarsData(data);
+
+  } catch (error) {
+    console.error('Failed to update car:', error);
+    return {
+      message: 'Error: Failed to update car data.'
+    }
+  }
 
 
   revalidatePath('/admin/dashboard');
@@ -98,9 +148,25 @@ export async function updateCarAction(
 }
 
 export async function deleteCarAction(id: string) {
-  // This is a prototype, so we won't actually delete from the JSON file.
-  // In a real app, you would delete the car from the database here.
-  console.log('Deleted car with ID:', id);
+  try {
+    const data = await getCarsData();
+    const initialCount = data.placeholderImages.length;
+    data.placeholderImages = data.placeholderImages.filter(
+      (car) => car.id !== id
+    );
+
+    if (data.placeholderImages.length === initialCount) {
+       console.log('Failed to delete car with ID:', id, 'Car not found.');
+       return { message: 'Failed to delete car. Car not found.' };
+    }
+    
+    await writeCarsData(data);
+    
+  } catch (error) {
+    console.error('Failed to delete car:', error);
+    return { message: 'Failed to delete car.' };
+  }
+
 
   revalidatePath('/admin/dashboard');
   revalidatePath('/');
