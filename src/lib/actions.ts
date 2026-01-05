@@ -3,12 +3,7 @@
 import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import type { Car } from './types';
-import carData from './placeholder-images.json';
-
-// In-memory store, initialized from the JSON file.
-// In a real app, this would be a database like Supabase or Firebase.
-let cars: Car[] = carData.placeholderImages;
+import { supabase } from './supabase';
 
 const carSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -19,14 +14,30 @@ const carSchema = z.object({
 });
 
 export async function getCars() {
-  // Simulate network delay
-  await new Promise((resolve) => setTimeout(resolve, 300));
-  return cars.sort((a, b) => a.name.localeCompare(b.name));
+  const { data: cars, error } = await supabase
+    .from('cars')
+    .select('*')
+    .order('name', { ascending: true });
+
+  if (error) {
+    console.error('Error fetching cars:', error);
+    return [];
+  }
+  return cars || [];
 }
 
 export async function getCarById(id: string) {
-  await new Promise((resolve) => setTimeout(resolve, 100));
-  return cars.find((car) => car.id === id);
+  const { data, error } = await supabase
+    .from('cars')
+    .select('*')
+    .eq('id', id)
+    .single();
+
+  if (error) {
+    console.error('Error fetching car by id:', error);
+    return null;
+  }
+  return data;
 }
 
 export async function addCarAction(prevState: any, formData: FormData) {
@@ -41,13 +52,9 @@ export async function addCarAction(prevState: any, formData: FormData) {
     };
   }
 
-  try {
-    const newCar = {
-      id: `${Date.now()}`,
-      ...validatedFields.data,
-    };
-    cars.unshift(newCar);
-  } catch (e) {
+  const { error } = await supabase.from('cars').insert([validatedFields.data]);
+
+  if (error) {
     return { message: 'Error: Failed to add car.' };
   }
 
@@ -72,15 +79,12 @@ export async function updateCarAction(
     };
   }
 
-  try {
-    const carIndex = cars.findIndex((car) => car.id === id);
-    if (carIndex === -1) throw new Error('Car not found');
+  const { error } = await supabase
+    .from('cars')
+    .update(validatedFields.data)
+    .eq('id', id);
 
-    cars[carIndex] = {
-      ...cars[carIndex],
-      ...validatedFields.data,
-    };
-  } catch (e) {
+  if (error) {
     return { message: 'Error: Failed to update car.' };
   }
 
@@ -91,12 +95,13 @@ export async function updateCarAction(
 }
 
 export async function deleteCarAction(id: string) {
-  try {
-    cars = cars.filter((car) => car.id !== id);
-    revalidatePath('/admin/dashboard');
-    revalidatePath('/');
-    return { message: 'Deleted car successfully.' };
-  } catch (e) {
+  const { error } = await supabase.from('cars').delete().eq('id', id);
+
+  if (error) {
     return { message: 'Failed to delete car.' };
   }
+
+  revalidatePath('/admin/dashboard');
+  revalidatePath('/');
+  return { message: 'Deleted car successfully.' };
 }
