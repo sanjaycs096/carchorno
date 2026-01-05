@@ -26,8 +26,8 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from '@/components/ui/alert-dialog';
-import Image from 'next/image';
 import { Card } from '../ui/card';
+import { SafeImage } from '../shared/SafeImage';
 
 interface CarDataTableProps {
   cars: Car[];
@@ -35,7 +35,7 @@ interface CarDataTableProps {
 
 export function CarDataTable({ cars }: CarDataTableProps) {
   const [isPending, startTransition] = useTransition();
-  const { toast } = useToast();
+  const { toast } = use-toast();
 
   const handleDelete = (id: string) => {
     startTransition(async () => {
@@ -70,14 +70,9 @@ export function CarDataTable({ cars }: CarDataTableProps) {
           {cars.map((car) => (
             <TableRow key={car.id}>
               <TableCell>
-                <Image
-                  src={car.imageUrl}
-                  alt={car.name}
-                  width={64}
-                  height={48}
-                  className="rounded-md object-cover"
-                  data-ai-hint={car.imageHint}
-                />
+                <div className="w-16 h-12 relative rounded-md overflow-hidden">
+                  <SafeImage src={car.imageUrl} alt={car.name} imageHint={car.imageHint} />
+                </div>
               </TableCell>
               <TableCell className="font-medium">{car.name}</TableCell>
               <TableCell>{car.brand}</TableCell>
@@ -113,7 +108,7 @@ export function CarDataTable({ cars }: CarDataTableProps) {
                       <AlertDialogFooter>
                         <AlertDialogCancel>Cancel</AlertDialogCancel>
                         <AlertDialogAction
-                          onClick={() => handleDelete(car.id)}
+                          onClick={() => handleDelete(car.id!)}
                           disabled={isPending}
                           className="bg-destructive hover:bg-destructive/90"
                         >
