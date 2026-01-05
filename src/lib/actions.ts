@@ -3,30 +3,21 @@
 import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import {
-  addDoc,
-  collection,
-  deleteDoc,
-  doc,
-  getDoc,
-  getDocs,
-  updateDoc,
-} from 'firebase/firestore';
+import { promises as fs } from 'fs';
+import path from 'path';
 
-import { initializeFirebase } from '@/firebase';
 import type { Car } from './types';
 
 // In a real app, this would be a database call.
 // For this prototype, we're reading from a JSON file.
 async function getCarsData(): Promise<Car[]> {
-  const { firestore } = initializeFirebase();
-  const carsCollection = collection(firestore, 'cars');
-  const carSnapshot = await getDocs(carsCollection);
-  const carList = carSnapshot.docs.map((doc) => ({
-    id: doc.id,
-    ...doc.data(),
-  })) as Car[];
-  return carList;
+  const filePath = path.join(
+    process.cwd(),
+    'src/lib/placeholder-images.json'
+  );
+  const jsonData = await fs.readFile(filePath, 'utf-8');
+  const data = JSON.parse(jsonData);
+  return data.placeholderImages;
 }
 
 const carSchema = z.object({
@@ -41,8 +32,8 @@ export async function getCars(): Promise<Car[]> {
   try {
     const cars = await getCarsData();
     // sort alphabetically by name
-    cars.sort((a, b) => a.name.localeCompare(b.name));
-    return cars;
+    cars.sort((a, b) => (a.name || a.car_name).localeCompare(b.name || b.car_name));
+    return cars.map(car => ({...car, name: car.name || car.car_name}));
   } catch (error) {
     console.error('Error fetching cars:', error);
     return [];
@@ -50,15 +41,12 @@ export async function getCars(): Promise<Car[]> {
 }
 
 export async function getCarById(id: string) {
-  const { firestore } = initializeFirebase();
-  const docRef = doc(firestore, 'cars', id);
-  const docSnap = await getDoc(docRef);
-
-  if (docSnap.exists()) {
-    return { id: docSnap.id, ...docSnap.data() } as Car;
-  } else {
-    return null;
+  const cars = await getCarsData();
+  const car = cars.find((car) => car.id === id);
+  if (car) {
+    return {...car, name: car.name || car.car_name};
   }
+  return null;
 }
 
 export async function addCarAction(prevState: any, formData: FormData) {
@@ -73,16 +61,9 @@ export async function addCarAction(prevState: any, formData: FormData) {
     };
   }
 
-  try {
-    const { firestore } = initializeFirebase();
-    await addDoc(collection(firestore, 'cars'), {
-      ...validatedFields.data,
-      created_at: new Date().toISOString(),
-    });
-  } catch (error) {
-    console.error('Add car error:', error);
-    return { message: 'Error: Failed to add car.' };
-  }
+  // This is a prototype, so we won't actually save to the JSON file.
+  // In a real app, you would add the new car to the database here.
+  console.log('New car data:', validatedFields.data);
 
   revalidatePath('/admin/dashboard');
   revalidatePath('/');
@@ -105,14 +86,10 @@ export async function updateCarAction(
     };
   }
 
-  try {
-    const { firestore } = initializeFirebase();
-    const docRef = doc(firestore, 'cars', id);
-    await updateDoc(docRef, validatedFields.data);
-  } catch (error) {
-    console.error('Update car error:', error);
-    return { message: 'Error: Failed to update car.' };
-  }
+  // This is a prototype, so we won't actually update the JSON file.
+  // In a real app, you would update the car in the database here.
+  console.log('Updated car data for ID', id, ':', validatedFields.data);
+
 
   revalidatePath('/admin/dashboard');
   revalidatePath('/');
@@ -121,13 +98,9 @@ export async function updateCarAction(
 }
 
 export async function deleteCarAction(id: string) {
-  try {
-    const { firestore } = initializeFirebase();
-    await deleteDoc(doc(firestore, 'cars', id));
-  } catch (error) {
-    console.error('Delete car error:', error);
-    return { message: 'Failed to delete car.' };
-  }
+  // This is a prototype, so we won't actually delete from the JSON file.
+  // In a real app, you would delete the car from the database here.
+  console.log('Deleted car with ID:', id);
 
   revalidatePath('/admin/dashboard');
   revalidatePath('/');
