@@ -1,3 +1,4 @@
+
 import { createClient } from '@supabase/supabase-js';
 
 // IMPORTANT: Never share your service role key with anyone.
@@ -15,7 +16,13 @@ export function getSupabaseServerClient() {
 
   // When using the service_role key, we can bypass RLS for server-side operations.
   // This is safe ONLY on the server.
-  return createClient(supabaseUrl, supabaseServiceKey);
+  return createClient(supabaseUrl, supabaseServiceKey, {
+    auth: {
+      persistSession: false,
+      autoRefreshToken: false,
+      detectSessionInUrl: false,
+    },
+  });
 }
 
 // This function is for use in CLIENT-SIDE code (components with 'use client')
