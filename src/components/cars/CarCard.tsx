@@ -18,7 +18,7 @@ export function CarCard({ car }: CarCardProps) {
   return (
     <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
       <CardHeader className="p-0">
-        <div className="aspect-[3/2] relative w-full">
+        <div className="aspect-video relative w-full">
           <Image
             src={car.imageUrl}
             alt={car.name}
