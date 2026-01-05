@@ -1,5 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import type { Car } from './types';
+import 'dotenv/config';
 
 // These should be in your .env.local file
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
