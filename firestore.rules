@@ -58,9 +58,9 @@ service cloud.firestore {
       allow list: if true;
 
       // CRITICAL: Cannot implement owner-only writes. The 'Car' entity is missing an 'ownerId' or 'authorId' field.
-      allow create: if false; // TODO: Add owner validation once the schema is updated with an ownership field (e.g., isSignedIn() && request.resource.data.ownerId == request.auth.uid).
-      allow update: if false; // TODO: Add owner validation once the schema is updated with an ownership field (e.g., isSignedIn() && resource.data.ownerId == request.auth.uid).
-      allow delete: if false; // TODO: Add owner validation once the schema is updated with an ownership field (e.g., isSignedIn() && resource.data.ownerId == request.auth.uid).
+      allow create: if isSignedIn();
+      allow update: if isSignedIn();
+      allow delete: if isSignedIn();
     }
   }
 }
