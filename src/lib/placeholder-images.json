@@ -1,3 +1,108 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "1",
+      "name": "Audi R8",
+      "brand": "Audi",
+      "description": "A high-performance sports car from Audi.",
+      "imageUrl": "https://images.unsplash.com/photo-1562911791-c7a97b729ec5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzcG9ydHMlMjBjYXJ8ZW58MHx8fHwxNzY3NTU1MDE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sports car"
+    },
+    {
+      "id": "2",
+      "name": "BMW M4",
+      "brand": "BMW",
+      "description": "A powerful and agile coupe from BMW's M division.",
+      "imageUrl": "https://images.unsplash.com/photo-1589750602846-60028879da9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxibHVlJTIwY2FyfGVufDB8fHx8MTc2NzU5MTY3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "blue car"
+    },
+    {
+      "id": "3",
+      "name": "Bugatti Chiron",
+      "brand": "Bugatti",
+      "description": "An iconic hypercar known for its speed and luxury.",
+      "imageUrl": "https://images.unsplash.com/photo-1580679568899-be51739ba2df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBjYXJ8ZW58MHx8fHwxNzY3NTczNTA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "luxury car"
+    },
+    {
+      "id": "4",
+      "name": "Chevrolet Camaro",
+      "brand": "Chevrolet",
+      "description": "An American muscle car with a rich history.",
+      "imageUrl": "https://images.unsplash.com/photo-1616019459068-4cc6dca4d3a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtdXNjbGUlMjBjYXJ8ZW58MHx8fHwxNzY3NTk4MDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "muscle car"
+    },
+    {
+      "id": "5",
+      "name": "Ferrari 488",
+      "brand": "Ferrari",
+      "description": "A masterpiece of Italian engineering and design.",
+      "imageUrl": "https://images.unsplash.com/photo-1532974297617-c0f05fe48bff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyZWQlMjBjYXJ8ZW58MHx8fHwxNzY3NTcwNjQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red car"
+    },
+    {
+      "id": "6",
+      "name": "Ford Mustang",
+      "brand": "Ford",
+      "description": "The original pony car, an American icon.",
+      "imageUrl": "https://images.unsplash.com/photo-1597527021674-15bd20e2e2e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb255JTIwY2FyfGVufDB8fHx8MTc2NzYyMzY0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pony car"
+    },
+    {
+      "id": "7",
+      "name": "Honda Civic Type R",
+      "brand": "Honda",
+      "description": "A high-performance hatchback with a racing pedigree.",
+      "imageUrl": "https://images.unsplash.com/photo-1729783458306-3615ee09ecd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoYXRjaGJhY2slMjBjYXJ8ZW58MHx8fHwxNzY3NjIzNjQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hatchback car"
+    },
+    {
+      "id": "8",
+      "name": "Lamborghini Aventador",
+      "brand": "Lamborghini",
+      "description": "An exotic supercar with aggressive styling.",
+      "imageUrl": "https://images.unsplash.com/photo-1573074617613-fc8ef27eaa2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdXBlcmNhcnxlbnwwfHx8fDE3Njc1NTEzMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "supercar"
+    },
+    {
+      "id": "9",
+      "name": "McLaren 720S",
+      "brand": "McLaren",
+      "description": "A British supercar focused on performance and aerodynamics.",
+      "imageUrl": "https://images.unsplash.com/photo-1649438032416-25a260c7a486?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvcmFuZ2UlMjBjYXJ8ZW58MHx8fHwxNzY3NjIzNjQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "orange car"
+    },
+    {
+      "id": "10",
+      "name": "Mercedes-AMG GT",
+      "brand": "Mercedes-Benz",
+      "description": "A luxury sports car combining performance with comfort.",
+      "imageUrl": "https://images.unsplash.com/photo-1613538713046-5da83e3451d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2lsdmVyJTIwY2FyfGVufDB8fHx8MTc2NzYxNTIwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "silver car"
+    },
+    {
+      "id": "11",
+      "name": "Nissan GT-R",
+      "brand": "Nissan",
+      "description": "Godzilla, a Japanese supercar with incredible performance.",
+      "imageUrl": "https://images.unsplash.com/photo-1623326373635-8d5b9abbb3c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8SmFwYW5lc2UlMjBzdXBlcmNhcnxlbnwwfHx8fDE3Njc2MjM2NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Japanese supercar"
+    },
+    {
+      "id": "12",
+      "name": "Porsche 911",
+      "brand": "Porsche",
+      "description": "An iconic sports car with a timeless design.",
+      "imageUrl": "https://images.unsplash.com/photo-1603039548092-fff996c2441c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xhc3NpYyUyMGNhcnxlbnwwfHx8fDE3Njc1NjMzMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "classic car"
+    },
+    {
+      "id": "13",
+      "name": "Tesla Model S",
+      "brand": "Tesla",
+      "description": "A pioneer in electric vehicle performance and technology.",
+      "imageUrl": "https://images.unsplash.com/photo-1594535182308-8ffefbb661e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlbGVjdHJpYyUyMGNhcnxlbnwwfHx8fDE3Njc1NDQ1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "electric car"
+    }
+  ]
 }
